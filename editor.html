@@ -1,0 +1,34 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=DM+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/base.css"><link rel="stylesheet" href="css/workspace.css">
+<script>try{var t=localStorage.getItem("fc-theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+<script>window.addEventListener("error",function(e){if(document.getElementById("fc-err"))return;var d=document.createElement("div");d.id="fc-err";d.style.cssText="background:#b3261e;color:#fff;padding:.6rem 1rem;text-align:center;font:600 14px sans-serif";d.textContent="A script failed to run: "+(e.message||"unknown error")+". Refresh with Ctrl+F5.";function a(){document.body.prepend(d)}document.body?a():document.addEventListener("DOMContentLoaded",a)});</script>
+<title>Pattern editor · FashionCAD Studio</title></head><body class="ed"><div class="app">
+<header class="top"><a class="logo" href="dashboard.html" id="back">Fashion<i>CAD</i></a><span class="pname" id="pname">Loading…</span><span class="st" id="status"></span><span class="sp"></span>
+<select id="unit" aria-label="Units"><option value="cm">cm</option><option value="in">inches</option><option value="mm">mm</option></select>
+<button class="mini" id="undo" title="Ctrl+Z">Undo</button><button class="mini" id="redo" title="Ctrl+Y">Redo</button><button class="mini" id="fit">Fit view</button>
+<button class="mini" id="svgb">SVG</button><button class="mini" id="pngb">PNG</button><button class="mini" id="dxfb" title="CAD file, millimetres">DXF</button><button class="mini" id="prnb" title="Opens print dialog at true scale. Choose Save as PDF.">Print / PDF</button>
+<a class="mini" id="todesign" href="design.html" style="text-decoration:none">Design studio</a><a class="mini" id="to3d" href="studio.html" style="text-decoration:none">See on 3D model</a><button class="mini pri" id="save" title="Ctrl+S">Save</button></header>
+<div class="body"><nav class="tools" id="tools" aria-label="Tools"></nav>
+<div class="stage"><canvas id="cv" tabindex="0" aria-label="Pattern drawing canvas"></canvas></div>
+<aside class="side2"><div id="msg" class="msg" hidden role="alert"></div>
+<details open><summary>Colour and line</summary>
+<div class="crow"><label for="stroke">Line colour</label><span><input type="color" id="stroke" value="#e8e8e8"> <button class="mini" id="strokeauto" type="button">Auto</button></span></div>
+<div class="crow"><label for="fill">Fill colour</label><span><input type="color" id="fill" value="#ff5fa2"></span></div>
+<label class="check"><input type="checkbox" id="nofill" checked> No fill</label>
+<div class="crow"><label for="lw">Pencil thickness (mm)</label><input type="number" id="lw" min="0.2" max="30" step="0.2" value="1.2" style="width:70px"></div>
+<p class="ro">Pick a colour with a shape selected to recolour it. Pick a colour first to draw in that colour.</p>
+<div><button class="mini" id="cpy" type="button">Copy</button><button class="mini" id="pst" type="button">Paste</button></div></details>
+<div id="props"></div>
+<details open><summary>Garment base pattern</summary>
+<label for="bg">Garment</label><select id="bg"></select><label for="bp">Body size</label><select id="bp"></select><label for="bn">Neckline</label><select id="bn"></select>
+<button class="mini" id="binsert" type="button" style="margin-top:.6rem">Insert base pattern</button><p class="ro">Draws the pieces of this garment (front, back, sleeves) to your body size. Drag the corner points to reshape. Double-click an edge to add a point. Shift+click a point removes it. Ctrl+click makes it sharp or smooth.</p></details>
+<details open><summary>Motifs and my designs</summary>
+<label for="motif">Add a motif</label><select id="motif"></select><button class="mini" id="madd" type="button" style="margin-top:.4rem">Add motif</button>
+<label for="dname" style="margin-top:.8rem">Save selection as a design</label><input id="dname" maxlength="30" placeholder="Name"><button class="mini" id="dsave" type="button" style="margin-top:.4rem">Save design</button>
+<label for="dlist" style="margin-top:.8rem">My designs</label><select id="dlist"></select><button class="mini" id="dins" type="button">Insert</button><button class="mini" id="ddel" type="button">Delete</button></details>
+<details open><summary>Shapes</summary><ul class="shapes" id="list"></ul></details></aside></div>
+<footer class="bar"><span id="st-pos">0, 0</span><span id="st-len"></span><span id="st-hint"></span><label><input type="checkbox" id="snap" checked> Snap</label><label><input type="checkbox" id="gridchk" checked> Grid</label></footer></div>
+<input type="file" id="imgf" accept="image/*" hidden>
+<script type="module" src="js/pattern-editor.js"></script></body></html>

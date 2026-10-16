@@ -1,0 +1,40 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=DM+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/base.css"><link rel="stylesheet" href="css/workspace.css"><link rel="stylesheet" href="css/studio.css">
+<script>try{var t=localStorage.getItem("fc-theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"}}</script>
+<title>3D studio · FashionCAD Studio</title><script>window.addEventListener("error",function(e){if(document.getElementById("fc-err"))return;var d=document.createElement("div");d.id="fc-err";d.style.cssText="background:#b3261e;color:#fff;padding:.6rem 1rem;text-align:center;font:600 14px sans-serif";d.textContent="A script failed to run: "+(e.message||"unknown error")+". Refresh with Ctrl+F5.";function a(){document.body.prepend(d)}document.body?a():document.addEventListener("DOMContentLoaded",a)});</script></head><body class="st"><div class="app">
+<header class="top"><a class="logo" href="dashboard.html" id="back">Fashion<i>CAD</i></a><span class="pname" id="pname">Loading…</span><span class="sp"></span>
+<button class="mini" id="png">PNG</button><button class="mini" id="glb">GLB</button><button class="mini" id="obj">OBJ</button><a class="mini" href="design.html" style="text-decoration:none">Design studio</a><button class="mini pri" id="save">Save to project</button></header>
+<div class="sbody"><aside class="panel3" aria-label="3D controls">
+<details open><summary>Mannequin</summary>
+<label for="preset">Body preset</label><select id="preset"></select>
+<p class="hint">Presets are sample proportions to start from, not standard size charts. Change any measurement below.</p>
+<label for="unit">Units</label><select id="unit"><option value="cm">Centimetres</option><option value="in">Inches</option><option value="mm">Millimetres</option></select>
+<div id="meas"></div></details>
+<details open><summary>Garment</summary>
+<label class="check"><input type="checkbox" id="usepat"> Use my pattern design</label><p class="hint" id="patinfo"></p>
+<label for="type">Template</label><select id="type"></select>
+<p class="hint">Simplified parametric shapes fitted to the mannequin. They are not yet sewn from your 2D pattern pieces.</p>
+<label for="ease">Ease <span class="out" id="ease-v"></span></label><input type="range" id="ease">
+<p class="hint">Extra room around the body. Negative values suit stretch fabrics.</p>
+<label for="hem"><span id="hem-l">Hem length</span> <span class="out" id="hem-v"></span></label><input type="range" id="hem">
+<label for="sleeve">Sleeve length <span class="out" id="sleeve-v"></span></label><input type="range" id="sleeve">
+<label for="fold">Fold strength <span class="out" id="fold-v"></span></label><input type="range" id="fold">
+<p class="hint">Folds are a visual approximation from the fabric's drape and wrinkle ratings. This is not physical cloth simulation.</p></details>
+<details open><summary>Fabric</summary>
+<label for="fab">Fabric</label><select id="fab"></select><p class="hint" id="finfo"></p>
+<div class="chips" id="chips" role="group" aria-label="Fabric colour"></div>
+<label for="cc">Custom colour</label><input type="color" id="cc" value="#ffffff"></details>
+<details open><summary>View</summary>
+<label class="check"><input type="checkbox" id="wire"> Wireframe garment</label>
+<label class="check"><input type="checkbox" id="bodyv" checked> Show mannequin</label>
+<label class="check"><input type="checkbox" id="rot"> Auto-rotate</label>
+<label class="check"><input type="checkbox" id="gridv" checked> Floor and grid</label>
+<p class="hint">Drag to orbit, scroll or pinch to zoom, right-drag to pan.</p></details>
+</aside>
+<div class="stage3"><div id="msg" class="msg" hidden role="alert"></div><canvas id="cv" aria-label="3D garment preview"></canvas></div></div>
+<footer class="vbar"><span id="views" style="display:flex;gap:.4rem;flex-wrap:wrap"></span><span class="sp"></span><small>GLB opens in most 3D tools. OBJ has shape only, no fabric.</small></footer></div>
+<script>setTimeout(function(){if(!window.__studioReady){var m=document.getElementById("msg");if(m&&m.hidden){m.textContent="The 3D engine didn't start. Check your internet connection (it loads from a CDN) and refresh. If you opened this file from your computer, use the GitHub Pages link instead.";m.className="msg error";m.hidden=false}}},8000)</script>
+<script type="module" src="js/studio.js"></script></body></html>

@@ -1,0 +1,7 @@
+.wide{background:var(--mat2);border:1px solid var(--line);border-radius:10px;padding:1.3rem;margin-top:1.3rem;max-width:900px}
+.wide h2{font-size:1.25rem}.tbl{width:100%;border-collapse:collapse;font-size:.92rem}.tbl th,.tbl td{text-align:left;padding:.4rem .6rem .4rem 0;border-bottom:1px solid var(--line)}.tbl th{color:var(--dim);font-weight:600}
+.tbl td.n,.tbl th.n{text-align:right}.tbl input{width:80px;padding:.3rem .4rem}.tbl tr.tot td{font-weight:700;border-top:2px solid var(--chalk)}
+.fgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:0 1rem}.fgrid label{font-size:.85rem}
+.acts2{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:1.3rem}.acts2 .btn{width:auto;margin:0}
+.pick{list-style:none;padding:0;margin:1rem 0;display:grid;gap:.5rem;max-width:600px}.pick a{display:block;padding:.7rem 1rem;border:1px solid var(--line);border-radius:6px;background:var(--mat2);color:var(--chalk);text-decoration:none}.pick a:hover{border-color:var(--pink)}
+.big{font:800 2.2rem var(--head);color:var(--pink)}.note2{color:var(--dim);font-size:.9rem}

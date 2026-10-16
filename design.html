@@ -1,0 +1,93 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=DM+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/base.css"><link rel="stylesheet" href="css/design.css">
+<script>try{var t=localStorage.getItem("fc-theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"}}</script>
+<title>Design studio · FashionCAD Studio</title><script>window.addEventListener("error",function(e){if(document.getElementById("fc-err"))return;var d=document.createElement("div");d.id="fc-err";d.style.cssText="background:#b3261e;color:#fff;padding:.6rem 1rem;text-align:center;font:600 14px sans-serif";d.textContent="A script failed to run: "+(e.message||"unknown error")+". Refresh with Ctrl+F5.";function a(){document.body.prepend(d)}document.body?a():document.addEventListener("DOMContentLoaded",a)});</script></head>
+<body class="dz"><div class="app">
+
+<header class="top">
+<a class="logo" href="dashboard.html">Fashion<i>CAD</i></a>
+<input id="pname" maxlength="60" aria-label="Design name" value="Untitled dress">
+<span class="sp"></span>
+<button class="mini" id="savejson">Save design</button>
+<button class="mini" id="openeditor">Open flat pattern</button>
+<button class="mini pri" id="pdf">Download sewing PDF</button>
+</header>
+
+<div class="body">
+<aside class="wizard" aria-label="Design steps">
+<div class="steps" id="steps" role="tablist" aria-label="Design steps"></div>
+
+<section id="s0"><h3>Start from a look</h3><p class="lead">Pick a ready style, then change anything you like. Nothing is locked.</p>
+<div class="opts wide" id="qk"></div></section>
+
+<section id="s1" hidden><h3>Who is it for?</h3><p class="lead">Choose the body block and the size. The pattern and the 3D dress both use these numbers.</p>
+<label for="preset">Body block</label><select id="preset"></select>
+<label for="size">Size</label><select id="size"></select>
+<label for="unit">Units</label><select id="unit"><option value="cm">Centimetres</option><option value="in">Inches</option><option value="mm">Millimetres</option></select>
+<div class="meas" id="meas"></div>
+<p class="hint">Change one of these and the size becomes “Custom”. Ease in Step 4 is the fitting room you add to the body.</p>
+<div class="row"><button class="mini" id="saveblock">Save as my block</button><button class="mini" id="loadblock">Load my block</button></div>
+<div class="msg" hidden id="fitmsg" role="status"></div></section>
+
+<section id="s2" hidden><h3>Silhouette</h3><p class="lead">The overall shape of the dress — how it falls from the shoulder.</p>
+<div class="opts wide" id="sil"></div>
+<label for="fl">Fullness at the hem <span class="out" id="fl-v"></span></label><input type="range" id="fl">
+<p class="hint">1.0 is the drafting rule for this silhouette. More fullness uses more fabric.</p></section>
+
+<section id="s3" hidden><h3>Neckline</h3><p class="lead">Front shape. The back neck follows it automatically.</p>
+<div class="opts" id="neck"></div>
+<h3 style="margin-top:1.2rem">Sleeve</h3><p class="lead">Cap ease, cuffs and flares are drafted into the sleeve head.</p>
+<div class="opts" id="slv"></div>
+<label class="check"><input type="checkbox" id="cuff"> Button cuff band</label></section>
+
+<section id="s4" hidden><h3>Skirt &amp; length</h3><p class="lead">Below the waist. A one-piece dress uses the bodice shape above.</p>
+<div class="opts" id="skrt"></div>
+<div class="opts" id="len"></div>
+<label for="ease">Wearing ease <span class="out" id="ease-v"></span></label><input type="range" id="ease">
+<p class="hint">Extra room added to the body all around. 0–4 cm for loose woven fabric, negative for stretch jersey.</p></section>
+
+<section id="s5" hidden><h3>Opening &amp; finishing</h3><p class="lead">How you get in and out, and what the maker stitches at the edges.</p>
+<div class="opts" id="cloc"></div>
+<label for="sb">Seam allowance <span class="out" id="sb-v"></span></label><input type="range" id="sb">
+<div class="two"><div><label for="hemf">Hem finish</label><select id="hemf"></select></div>
+<div><label for="cap">Cap ease <span class="out" id="cap-v"></span></label><input type="range" id="cap"></div></div>
+<label class="check"><input type="checkbox" id="wband"> Waist band</label>
+<label class="check"><input type="checkbox" id="pkts"> Patch pockets</label></section>
+
+<section id="s6" hidden><h3>Fabric &amp; colour</h3><p class="lead">The fabric drives the drape in 3D, the seam widths and the needle settings in the PDF.</p>
+<label for="fab">Fabric</label><select id="fab"></select>
+<p class="fabinfo" id="finfo"></p>
+<div class="chips" id="chips" role="group" aria-label="Fabric colour"></div>
+<label for="cc">Custom colour</label><input type="color" id="cc" value="#ffffff">
+<label for="wt">Cloth weight in the simulation <span class="out" id="wt-v"></span></label><input type="range" id="wt">
+<p class="hint">Heavier cloth falls straighter; lighter cloth floats and wrinkles more. This is a visual aid, not a certified physics result.</p></section>
+
+<section id="s7" hidden><h3>Check &amp; download</h3><p class="lead">Everything below comes from the same numbers used to draw and sew the dress.</p>
+<div class="sum" id="sum"></div>
+<p class="hint" style="margin-top:1rem">The sewing PDF has the size chart, cut layout with grainlines, per‑piece seam allowances, the numbered stitch order and machine settings.</p></section>
+</aside>
+
+<div class="stage">
+<div class="tabs" role="tablist" aria-label="Preview">
+<button id="t3d" role="tab" aria-selected="true">3D dress</button>
+<button id="tflat" role="tab" aria-selected="false">Flat pattern</button>
+<button id="tsew" role="tab" aria-selected="false">How to sew</button>
+</div>
+<div class="pane" id="p3d"><div id="msg" class="msg" hidden role="alert"></div><div class="busy" id="busy" hidden>Sewing the pattern…</div><canvas class="cv" id="cv" aria-label="3D dress preview"></canvas></div>
+<div class="pane sheet" id="pflat" hidden><div class="svgwrap" id="flatsvg"></div><div class="zoombar"><button class="mini" id="fitview">Fit</button><button class="mini" id="zin">+</button><button class="mini" id="zout">−</button></div></div>
+<div class="pane sheet" id="psew" hidden><div id="sewbox"></div></div>
+</div>
+</div>
+
+<footer class="vbar"><span id="views" style="display:flex;gap:.4rem;flex-wrap:wrap"></span><span class="sp"></span>
+<label class="check" style="margin:0"><input type="checkbox" id="bodyv" checked> Mannequin</label>
+<label class="check" style="margin:0"><input type="checkbox" id="rot"> Turn</label>
+<button class="mini" id="png">Snapshot</button>
+<button class="mini" id="dlsvg">Pattern SVG</button>
+<button class="mini" id="dldxf">Pattern DXF</button>
+<small>Paper pattern: print the PDF at 100% (no scaling) and check the 10 cm ruler.</small></footer>
+</div>
+<script type="module" src="js/design.js"></script></body></html>

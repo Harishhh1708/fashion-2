@@ -1,0 +1,23 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=DM+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/base.css"><link rel="stylesheet" href="css/catalog.css"><link rel="stylesheet" href="css/production.css">
+<script>try{var t=localStorage.getItem("fc-theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js"}}</script>
+<title>Drape test · FashionCAD Studio</title><script>window.addEventListener("error",function(e){if(document.getElementById("fc-err"))return;var d=document.createElement("div");d.id="fc-err";d.style.cssText="background:#b3261e;color:#fff;padding:.6rem 1rem;text-align:center;font:600 14px sans-serif";d.textContent="A script failed to run: "+(e.message||"unknown error")+". Refresh with Ctrl+F5.";function a(){document.body.prepend(d)}document.body?a():document.addEventListener("DOMContentLoaded",a)});</script></head><body>
+<div class="dash"><aside class="side" id="side"></aside><main class="main">
+<h1 style="font-size:2.4rem">Drape test</h1>
+<p class="note2" style="max-width:70ch"><span class="demo">PROTOTYPE</span> A round fabric sample falls onto a round support, like a lab drape tester. Stretch, drape rating and weight from the fabric library are turned into simulation settings with simple formulas, so results are good for comparing fabrics and learning, but they are not calibrated against a real tester. The cloth cannot fold through itself yet.</p>
+<div class="filters"><div><label for="fab">Fabric</label><select id="fab"></select></div><div><label for="size">Sample diameter</label><select id="size"><option value="0.24">24 cm</option><option value="0.30" selected>30 cm</option><option value="0.36">36 cm</option></select></div>
+<button class="mini" id="run">Drop again</button><button class="mini" id="pause">Pause</button><label class="check"><input type="checkbox" id="wire"> Wireframe</label></div>
+<div id="msg" class="msg" hidden role="alert"></div>
+<div style="display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:1rem;max-width:1000px" id="lay">
+<div style="position:relative;height:min(62vh,520px);border:1px solid var(--line);border-radius:8px;overflow:hidden"><canvas id="cv" style="position:absolute;inset:0;width:100%;height:100%;display:block" aria-label="Drape test simulation"></canvas></div>
+<div><div class="wide" style="margin:0"><h2 style="margin:0">Drape coefficient</h2><p class="big" id="dc">–</p><p class="note2" id="dcn">Waiting for the sample to settle.</p>
+<p class="note2">Lower means softer drape with more folds. Higher means a stiffer fabric that stays wide.</p>
+<div class="chips" id="views" style="display:flex;gap:.4rem;flex-wrap:wrap"></div></div></div></div>
+<section class="wide"><h2>Rank the whole library</h2><p class="note2">Runs the test for every fabric, one after another. It takes about a minute. Your edited fabric values are used.</p>
+<div class="acts2" style="margin-top:.5rem"><button class="mini" id="rank">Rank all fabrics</button><button class="mini" id="stop" hidden>Stop</button><span class="note2" id="prog"></span></div><table class="tbl" id="rt" style="margin-top:1rem"></table></section>
+</main></div>
+<script>setTimeout(function(){if(!window.__drapeReady){var m=document.getElementById("msg");if(m&&m.hidden){m.textContent="The 3D engine didn't start. Check your internet connection (it loads from a CDN) and refresh.";m.className="msg error";m.hidden=false}}},8000)</script>
+<script type="module" src="js/drape.js"></script></body></html>

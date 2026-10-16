@@ -1,0 +1,25 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=DM+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/base.css"><link rel="stylesheet" href="css/catalog.css"><link rel="stylesheet" href="css/production.css">
+<script>try{var t=localStorage.getItem("fc-theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+<title>Production · FashionCAD Studio</title><script>window.addEventListener("error",function(e){if(document.getElementById("fc-err"))return;var d=document.createElement("div");d.id="fc-err";d.style.cssText="background:#b3261e;color:#fff;padding:.6rem 1rem;text-align:center;font:600 14px sans-serif";d.textContent="A script failed to run: "+(e.message||"unknown error")+". Refresh with Ctrl+F5.";function a(){document.body.prepend(d)}document.body?a():document.addEventListener("DOMContentLoaded",a)});</script></head><body>
+<div class="dash"><aside class="side" id="side"></aside><main class="main">
+<h1 style="font-size:2.4rem">Production</h1><p class="note2" id="sub">Fabric estimate, costing, measurement sheet and tech pack for a project.</p>
+<div id="msg" class="msg" hidden role="alert" style="max-width:900px"></div>
+<div id="pickbox" hidden><h2>Choose a project</h2><ul class="pick" id="pick"></ul></div>
+<div id="work" hidden>
+<div class="fgrid" style="max-width:300px"><div><label for="unit">Units</label><select id="unit"><option value="cm">Centimetres</option><option value="in">Inches</option><option value="mm">Millimetres</option></select></div></div>
+<section class="wide"><h2>Pattern pieces</h2><p class="note2" id="pnote"></p><table class="tbl" id="pt"></table></section>
+<section class="wide"><h2>Fabric and consumption</h2>
+<div class="fgrid"><div><label for="fab">Fabric</label><select id="fab"></select></div><div><label for="wid">Fabric width (cm)</label><input id="wid" type="number" min="20" max="400" step="1"></div><div><label for="extra">Extra allowance (%)</label><input id="extra" type="number" min="0" max="50" step="1"></div></div>
+<label class="check"><input type="checkbox" id="rot"> Allow turning pieces 90° (ignores grain direction)</label>
+<p style="margin-top:1rem">Estimated length per garment: <span class="big" id="len">0</span></p><p class="note2" id="eff"></p>
+<p class="note2">Rough estimate. Pieces are packed as boxes on the fabric width, so a real marker will usually do better. Use it for learning and first quotes, not for ordering bulk fabric.</p></section>
+<section class="wide"><h2>Costing</h2>
+<div class="fgrid"><div><label for="cur">Currency symbol</label><input id="cur" maxlength="3"></div><div><label for="rate">Fabric price per metre</label><input id="rate" type="number" min="0" step="1"></div><div><label for="trims">Trims and accessories</label><input id="trims" type="number" min="0" step="1"></div><div><label for="labour">Stitching and labour</label><input id="labour" type="number" min="0" step="1"></div><div><label for="oh">Overheads (%)</label><input id="oh" type="number" min="0" max="200" step="1"></div><div><label for="mg">Profit margin (%)</label><input id="mg" type="number" min="0" max="500" step="1"></div><div><label for="qty">Garments in order</label><input id="qty" type="number" min="1" max="100000" step="1"></div></div>
+<table class="tbl" id="ct" style="margin-top:1rem"></table><p class="note2">Fabric price starts from the library's sample cost. Replace it with your real quote.</p></section>
+<section class="wide"><h2>Measurement sheet</h2><p class="note2" id="mnote"></p><table class="tbl" id="mt"></table></section>
+<div class="acts2"><button class="btn" id="save">Save to project</button><button class="btn ghost" id="print">Tech pack (print / PDF)</button><button class="btn ghost" id="csv">Download CSV</button></div>
+</div></main></div>
+<script type="module" src="js/production.js"></script></body></html>

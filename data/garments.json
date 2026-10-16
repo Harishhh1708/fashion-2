@@ -1,0 +1,4891 @@
+{
+"note": "Catalog of garment families. Each garment has a 'block': the kind of base pattern drawn in the editor and the nearest 3D shape. These are starting points to adjust, not finished patterns.",
+"garments": [
+{
+"id": "t-shirt",
+"name": "T-Shirt",
+"family": "Western tops",
+"region": "Western",
+"gender": "Unisex",
+"pieces": [
+"Front",
+"Back",
+"Sleeve x2",
+"Neckband"
+],
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "polo-shirt",
+"name": "Polo Shirt",
+"family": "Western tops",
+"region": "Western",
+"gender": "Men",
+"pieces": [
+"Front",
+"Back",
+"Sleeve x2",
+"Collar",
+"Placket"
+],
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "henley",
+"name": "Henley",
+"family": "Western tops",
+"region": "Western",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.6,
+"ease": 8,
+"flare": 0,
+"type3d": "shirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "tank-top",
+"name": "Tank Top",
+"family": "Western tops",
+"region": "Western",
+"gender": "Unisex",
+"pieces": [
+"Front",
+"Back"
+],
+"block": {
+"kind": "top",
+"len": 0.38,
+"sleeve": 0,
+"ease": 4,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "camisole",
+"name": "Camisole",
+"family": "Western tops",
+"region": "Western",
+"gender": "Women",
+"block": {
+"kind": "top",
+"len": 0.33,
+"sleeve": 0,
+"ease": 4,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult female"
+}
+},
+{
+"id": "tube-top",
+"name": "Tube Top",
+"family": "Western tops",
+"region": "Western",
+"gender": "Women",
+"block": {
+"kind": "top",
+"len": 0.33,
+"sleeve": 0,
+"ease": 4,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult female"
+}
+},
+{
+"id": "crop-top",
+"name": "Crop Top",
+"family": "Western tops",
+"region": "Western",
+"gender": "Women",
+"block": {
+"kind": "top",
+"len": 0.24,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult female"
+}
+},
+{
+"id": "halter-top",
+"name": "Halter Top",
+"family": "Western tops",
+"region": "Western",
+"gender": "Women",
+"block": {
+"kind": "top",
+"len": 0.33,
+"sleeve": 0,
+"ease": 4,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult female"
+}
+},
+{
+"id": "blouse",
+"name": "Blouse",
+"family": "Western tops",
+"region": "Western",
+"gender": "Women",
+"pieces": [
+"Front x2",
+"Back",
+"Sleeve x2",
+"Facing"
+],
+"block": {
+"kind": "top",
+"len": 0.34,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult female"
+}
+},
+{
+"id": "shirt",
+"name": "Shirt",
+"family": "Western tops",
+"region": "Western",
+"gender": "Unisex",
+"pieces": [
+"Front x2",
+"Back",
+"Sleeve x2",
+"Collar",
+"Collar stand",
+"Cuff x2",
+"Pocket"
+],
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 1.0,
+"ease": 10,
+"flare": 0,
+"type3d": "shirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "formal-shirt",
+"name": "Formal Shirt",
+"family": "Western tops",
+"region": "Western",
+"gender": "Men",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 1.0,
+"ease": 10,
+"flare": 0,
+"type3d": "shirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "casual-shirt",
+"name": "Casual Shirt",
+"family": "Western tops",
+"region": "Western",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 1.0,
+"ease": 10,
+"flare": 0,
+"type3d": "shirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "overshirt",
+"name": "Overshirt",
+"family": "Western tops",
+"region": "Western",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 1.0,
+"ease": 10,
+"flare": 0,
+"type3d": "shirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "flannel-shirt",
+"name": "Flannel Shirt",
+"family": "Western tops",
+"region": "Western",
+"gender": "Men",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 1.0,
+"ease": 10,
+"flare": 0,
+"type3d": "shirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "denim-shirt",
+"name": "Denim Shirt",
+"family": "Western tops",
+"region": "Western",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 1.0,
+"ease": 10,
+"flare": 0,
+"type3d": "shirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "linen-shirt",
+"name": "Linen Shirt",
+"family": "Western tops",
+"region": "Western",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 1.0,
+"ease": 10,
+"flare": 0,
+"type3d": "shirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "oxford-shirt",
+"name": "Oxford Shirt",
+"family": "Western tops",
+"region": "Western",
+"gender": "Men",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 1.0,
+"ease": 10,
+"flare": 0,
+"type3d": "shirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "tunic",
+"name": "Tunic",
+"family": "Western tops",
+"region": "Western",
+"gender": "Women",
+"block": {
+"kind": "top",
+"len": 0.5,
+"sleeve": 0.35,
+"ease": 12,
+"flare": 0.05,
+"type3d": "kurta",
+"preset": "Adult female"
+}
+},
+{
+"id": "peplum-top",
+"name": "Peplum Top",
+"family": "Western tops",
+"region": "Western",
+"gender": "Women",
+"block": {
+"kind": "top",
+"len": 0.34,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult female"
+}
+},
+{
+"id": "wrap-top",
+"name": "Wrap Top",
+"family": "Western tops",
+"region": "Western",
+"gender": "Women",
+"block": {
+"kind": "top",
+"len": 0.34,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult female"
+}
+},
+{
+"id": "sweater",
+"name": "Sweater",
+"family": "Knitwear and layers",
+"region": "Western",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 1.0,
+"ease": 8,
+"flare": 0,
+"type3d": "shirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "sweatshirt",
+"name": "Sweatshirt",
+"family": "Knitwear and layers",
+"region": "Western",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 1.0,
+"ease": 16,
+"flare": 0,
+"type3d": "shirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "hoodie",
+"name": "Hoodie",
+"family": "Knitwear and layers",
+"region": "Western",
+"gender": "Unisex",
+"pieces": [
+"Front",
+"Back",
+"Sleeve x2",
+"Hood x2",
+"Pocket",
+"Cuffs and hem band"
+],
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 1.0,
+"ease": 16,
+"flare": 0,
+"type3d": "shirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "zip-hoodie",
+"name": "Zip Hoodie",
+"family": "Knitwear and layers",
+"region": "Western",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 1.0,
+"ease": 16,
+"flare": 0,
+"type3d": "shirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "pullover-hoodie",
+"name": "Pullover Hoodie",
+"family": "Knitwear and layers",
+"region": "Western",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 1.0,
+"ease": 16,
+"flare": 0,
+"type3d": "shirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "cardigan",
+"name": "Cardigan",
+"family": "Knitwear and layers",
+"region": "Western",
+"gender": "Unisex",
+"pieces": [
+"Front x2",
+"Back",
+"Sleeve x2",
+"Bands"
+],
+"block": {
+"kind": "top",
+"len": 0.45,
+"sleeve": 1.0,
+"ease": 8,
+"flare": 0,
+"type3d": "shirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "vest",
+"name": "Vest",
+"family": "Knitwear and layers",
+"region": "Western",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.38,
+"sleeve": 0,
+"ease": 4,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "waistcoat",
+"name": "Waistcoat",
+"family": "Knitwear and layers",
+"region": "Western",
+"gender": "Men",
+"block": {
+"kind": "top",
+"len": 0.38,
+"sleeve": 0,
+"ease": 4,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "poncho",
+"name": "Poncho",
+"family": "Knitwear and layers",
+"region": "Western",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.6,
+"sleeve": 0.35,
+"ease": 12,
+"flare": 0.05,
+"type3d": "kurta",
+"preset": "Adult male"
+}
+},
+{
+"id": "cape",
+"name": "Cape",
+"family": "Knitwear and layers",
+"region": "Western",
+"gender": "Women",
+"block": {
+"kind": "top",
+"len": 0.6,
+"sleeve": 0.35,
+"ease": 12,
+"flare": 0.05,
+"type3d": "kurta",
+"preset": "Adult female"
+}
+},
+{
+"id": "shrug",
+"name": "Shrug",
+"family": "Knitwear and layers",
+"region": "Western",
+"gender": "Women",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0,
+"ease": 4,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult female"
+}
+},
+{
+"id": "bomber-jacket",
+"name": "Bomber Jacket",
+"family": "Outerwear",
+"region": "Western",
+"gender": "Unisex",
+"pieces": [
+"Front x2",
+"Back",
+"Sleeve x2",
+"Rib collar, cuffs and hem",
+"Pockets",
+"Lining"
+],
+"block": {
+"kind": "top",
+"len": 0.38,
+"sleeve": 1.0,
+"ease": 14,
+"flare": 0,
+"type3d": "shirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "varsity-jacket",
+"name": "Varsity Jacket",
+"family": "Outerwear",
+"region": "Western",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.38,
+"sleeve": 1.0,
+"ease": 14,
+"flare": 0,
+"type3d": "shirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "denim-jacket",
+"name": "Denim Jacket",
+"family": "Outerwear",
+"region": "Western",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 1.0,
+"ease": 14,
+"flare": 0,
+"type3d": "shirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "leather-jacket",
+"name": "Leather Jacket",
+"family": "Outerwear",
+"region": "Western",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 1.0,
+"ease": 14,
+"flare": 0,
+"type3d": "shirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "biker-jacket",
+"name": "Biker Jacket",
+"family": "Outerwear",
+"region": "Western",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 1.0,
+"ease": 14,
+"flare": 0,
+"type3d": "shirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "motorcycle-jacket",
+"name": "Motorcycle Jacket",
+"family": "Outerwear",
+"region": "Western",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 1.0,
+"ease": 14,
+"flare": 0,
+"type3d": "shirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "windbreaker",
+"name": "Windbreaker",
+"family": "Outerwear",
+"region": "Western",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 1.0,
+"ease": 8,
+"flare": 0,
+"type3d": "shirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "rain-jacket",
+"name": "Rain Jacket",
+"family": "Outerwear",
+"region": "Western",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 1.0,
+"ease": 14,
+"flare": 0,
+"type3d": "shirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "raincoat",
+"name": "Raincoat",
+"family": "Outerwear",
+"region": "Western",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.62,
+"sleeve": 1.0,
+"ease": 14,
+"flare": 0,
+"type3d": "kurta",
+"preset": "Adult male"
+}
+},
+{
+"id": "trench-coat",
+"name": "Trench Coat",
+"family": "Outerwear",
+"region": "Western",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.62,
+"sleeve": 1.0,
+"ease": 14,
+"flare": 0,
+"type3d": "kurta",
+"preset": "Adult male"
+}
+},
+{
+"id": "overcoat",
+"name": "Overcoat",
+"family": "Outerwear",
+"region": "Western",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.62,
+"sleeve": 1.0,
+"ease": 14,
+"flare": 0,
+"type3d": "kurta",
+"preset": "Adult male"
+}
+},
+{
+"id": "parka",
+"name": "Parka",
+"family": "Outerwear",
+"region": "Western",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.62,
+"sleeve": 1.0,
+"ease": 16,
+"flare": 0,
+"type3d": "kurta",
+"preset": "Adult male"
+}
+},
+{
+"id": "puffer-jacket",
+"name": "Puffer Jacket",
+"family": "Outerwear",
+"region": "Western",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 1.0,
+"ease": 16,
+"flare": 0,
+"type3d": "shirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "fleece-jacket",
+"name": "Fleece Jacket",
+"family": "Outerwear",
+"region": "Western",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 1.0,
+"ease": 16,
+"flare": 0,
+"type3d": "shirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "blazer",
+"name": "Blazer",
+"family": "Outerwear",
+"region": "Western",
+"gender": "Unisex",
+"pieces": [
+"Front x2",
+"Side panel x2",
+"Back x2",
+"Sleeve x4",
+"Collar and lapel",
+"Pockets"
+],
+"block": {
+"kind": "top",
+"len": 0.45,
+"sleeve": 1.0,
+"ease": 10,
+"flare": 0,
+"type3d": "shirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "coat",
+"name": "Coat",
+"family": "Outerwear",
+"region": "Western",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.62,
+"sleeve": 1.0,
+"ease": 14,
+"flare": 0,
+"type3d": "kurta",
+"preset": "Adult male"
+}
+},
+{
+"id": "cape-coat",
+"name": "Cape Coat",
+"family": "Outerwear",
+"region": "Western",
+"gender": "Women",
+"block": {
+"kind": "top",
+"len": 0.62,
+"sleeve": 1.0,
+"ease": 14,
+"flare": 0,
+"type3d": "kurta",
+"preset": "Adult female"
+}
+},
+{
+"id": "suit-jacket",
+"name": "Suit Jacket",
+"family": "Outerwear",
+"region": "Western",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.45,
+"sleeve": 1.0,
+"ease": 14,
+"flare": 0,
+"type3d": "shirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "tailcoat",
+"name": "Tailcoat",
+"family": "Outerwear",
+"region": "Western",
+"gender": "Men",
+"block": {
+"kind": "top",
+"len": 0.62,
+"sleeve": 1.0,
+"ease": 14,
+"flare": 0,
+"type3d": "kurta",
+"preset": "Adult male"
+}
+},
+{
+"id": "jeans-skinny",
+"name": "Jeans (Skinny)",
+"family": "Bottoms",
+"region": "Western",
+"gender": "Unisex",
+"block": {
+"kind": "pants",
+"len": 0.56,
+"sleeve": 0,
+"ease": 0,
+"flare": 0,
+"type3d": "trousers",
+"hemw": 0.5,
+"preset": "Adult male"
+}
+},
+{
+"id": "jeans-slim",
+"name": "Jeans (Slim)",
+"family": "Bottoms",
+"region": "Western",
+"gender": "Unisex",
+"block": {
+"kind": "pants",
+"len": 0.56,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "trousers",
+"hemw": 0.5,
+"preset": "Adult male"
+}
+},
+{
+"id": "jeans-straight",
+"name": "Jeans (Straight)",
+"family": "Bottoms",
+"region": "Western",
+"gender": "Unisex",
+"pieces": [
+"Front leg x2",
+"Back leg x2",
+"Yoke x2",
+"Waistband",
+"Pockets"
+],
+"block": {
+"kind": "pants",
+"len": 0.56,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "trousers",
+"hemw": 0.62,
+"preset": "Adult male"
+}
+},
+{
+"id": "jeans-bootcut",
+"name": "Jeans (Bootcut)",
+"family": "Bottoms",
+"region": "Western",
+"gender": "Unisex",
+"block": {
+"kind": "pants",
+"len": 0.56,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "trousers",
+"hemw": 0.95,
+"preset": "Adult male"
+}
+},
+{
+"id": "jeans-flared",
+"name": "Jeans (Flared)",
+"family": "Bottoms",
+"region": "Western",
+"gender": "Unisex",
+"block": {
+"kind": "pants",
+"len": 0.56,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "trousers",
+"hemw": 0.95,
+"preset": "Adult male"
+}
+},
+{
+"id": "jeans-wide-leg",
+"name": "Jeans (Wide-leg)",
+"family": "Bottoms",
+"region": "Western",
+"gender": "Unisex",
+"block": {
+"kind": "pants",
+"len": 0.56,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "trousers",
+"hemw": 0.95,
+"preset": "Adult male"
+}
+},
+{
+"id": "jeans-mom",
+"name": "Jeans (Mom)",
+"family": "Bottoms",
+"region": "Western",
+"gender": "Women",
+"block": {
+"kind": "pants",
+"len": 0.56,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "trousers",
+"hemw": 0.62,
+"preset": "Adult female"
+}
+},
+{
+"id": "jeans-boyfriend",
+"name": "Jeans (Boyfriend)",
+"family": "Bottoms",
+"region": "Western",
+"gender": "Women",
+"block": {
+"kind": "pants",
+"len": 0.56,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "trousers",
+"hemw": 0.62,
+"preset": "Adult female"
+}
+},
+{
+"id": "cargo-pants",
+"name": "Cargo Pants",
+"family": "Bottoms",
+"region": "Western",
+"gender": "Unisex",
+"block": {
+"kind": "pants",
+"len": 0.56,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "trousers",
+"hemw": 0.62,
+"preset": "Adult male"
+}
+},
+{
+"id": "chinos",
+"name": "Chinos",
+"family": "Bottoms",
+"region": "Western",
+"gender": "Men",
+"pieces": [
+"Front leg x2",
+"Back leg x2",
+"Waistband",
+"Pocket bags"
+],
+"block": {
+"kind": "pants",
+"len": 0.56,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "trousers",
+"hemw": 0.62,
+"preset": "Adult male"
+}
+},
+{
+"id": "formal-trousers",
+"name": "Formal Trousers",
+"family": "Bottoms",
+"region": "Western",
+"gender": "Unisex",
+"block": {
+"kind": "pants",
+"len": 0.56,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "trousers",
+"hemw": 0.62,
+"preset": "Adult male"
+}
+},
+{
+"id": "casual-trousers",
+"name": "Casual Trousers",
+"family": "Bottoms",
+"region": "Western",
+"gender": "Unisex",
+"block": {
+"kind": "pants",
+"len": 0.56,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "trousers",
+"hemw": 0.62,
+"preset": "Adult male"
+}
+},
+{
+"id": "pleated-trousers",
+"name": "Pleated Trousers",
+"family": "Bottoms",
+"region": "Western",
+"gender": "Unisex",
+"block": {
+"kind": "pants",
+"len": 0.56,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "trousers",
+"hemw": 0.62,
+"preset": "Adult male"
+}
+},
+{
+"id": "joggers",
+"name": "Joggers",
+"family": "Bottoms",
+"region": "Western",
+"gender": "Unisex",
+"pieces": [
+"Leg x2",
+"Waistband",
+"Cuffs",
+"Pockets"
+],
+"block": {
+"kind": "pants",
+"len": 0.56,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "trousers",
+"hemw": 0.5,
+"preset": "Adult male"
+}
+},
+{
+"id": "sweatpants",
+"name": "Sweatpants",
+"family": "Bottoms",
+"region": "Western",
+"gender": "Unisex",
+"block": {
+"kind": "pants",
+"len": 0.56,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "trousers",
+"hemw": 0.62,
+"preset": "Adult male"
+}
+},
+{
+"id": "track-pants",
+"name": "Track Pants",
+"family": "Bottoms",
+"region": "Western",
+"gender": "Unisex",
+"block": {
+"kind": "pants",
+"len": 0.56,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "trousers",
+"hemw": 0.62,
+"preset": "Adult male"
+}
+},
+{
+"id": "leggings",
+"name": "Leggings",
+"family": "Bottoms",
+"region": "Western",
+"gender": "Women",
+"pieces": [
+"Leg x2",
+"Waistband",
+"Gusset"
+],
+"block": {
+"kind": "pants",
+"len": 0.56,
+"sleeve": 0,
+"ease": 0,
+"flare": 0,
+"type3d": "trousers",
+"hemw": 0.5,
+"preset": "Adult female"
+}
+},
+{
+"id": "jeggings",
+"name": "Jeggings",
+"family": "Bottoms",
+"region": "Western",
+"gender": "Women",
+"block": {
+"kind": "pants",
+"len": 0.56,
+"sleeve": 0,
+"ease": 0,
+"flare": 0,
+"type3d": "trousers",
+"hemw": 0.5,
+"preset": "Adult female"
+}
+},
+{
+"id": "capri-pants",
+"name": "Capri Pants",
+"family": "Bottoms",
+"region": "Western",
+"gender": "Women",
+"block": {
+"kind": "pants",
+"len": 0.42,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "trousers",
+"hemw": 0.62,
+"preset": "Adult female"
+}
+},
+{
+"id": "palazzo-pants",
+"name": "Palazzo Pants",
+"family": "Bottoms",
+"region": "Western",
+"gender": "Women",
+"block": {
+"kind": "pants",
+"len": 0.56,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "trousers",
+"hemw": 0.95,
+"preset": "Adult female"
+}
+},
+{
+"id": "culottes",
+"name": "Culottes",
+"family": "Bottoms",
+"region": "Western",
+"gender": "Women",
+"block": {
+"kind": "pants",
+"len": 0.56,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "trousers",
+"hemw": 0.95,
+"preset": "Adult female"
+}
+},
+{
+"id": "harem-pants",
+"name": "Harem Pants",
+"family": "Bottoms",
+"region": "Western",
+"gender": "Unisex",
+"block": {
+"kind": "pants",
+"len": 0.56,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "trousers",
+"hemw": 0.95,
+"preset": "Adult male"
+}
+},
+{
+"id": "dhoti-pants",
+"name": "Dhoti Pants",
+"family": "Bottoms",
+"region": "Western",
+"gender": "Unisex",
+"block": {
+"kind": "pants",
+"len": 0.56,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "trousers",
+"hemw": 0.62,
+"preset": "Adult male"
+}
+},
+{
+"id": "shorts",
+"name": "Shorts",
+"family": "Bottoms",
+"region": "Western",
+"gender": "Unisex",
+"pieces": [
+"Front x2",
+"Back x2",
+"Waistband",
+"Pockets"
+],
+"block": {
+"kind": "pants",
+"len": 0.22,
+"sleeve": 0,
+"ease": 6,
+"flare": 0,
+"type3d": "shorts",
+"hemw": 0.95,
+"preset": "Adult male"
+}
+},
+{
+"id": "bermuda-shorts",
+"name": "Bermuda Shorts",
+"family": "Bottoms",
+"region": "Western",
+"gender": "Unisex",
+"block": {
+"kind": "pants",
+"len": 0.3,
+"sleeve": 0,
+"ease": 6,
+"flare": 0,
+"type3d": "shorts",
+"hemw": 0.95,
+"preset": "Adult male"
+}
+},
+{
+"id": "board-shorts",
+"name": "Board Shorts",
+"family": "Bottoms",
+"region": "Western",
+"gender": "Men",
+"block": {
+"kind": "pants",
+"len": 0.22,
+"sleeve": 0,
+"ease": 6,
+"flare": 0,
+"type3d": "shorts",
+"hemw": 0.95,
+"preset": "Adult male"
+}
+},
+{
+"id": "cycling-shorts",
+"name": "Cycling Shorts",
+"family": "Bottoms",
+"region": "Western",
+"gender": "Unisex",
+"block": {
+"kind": "pants",
+"len": 0.22,
+"sleeve": 0,
+"ease": 0,
+"flare": 0,
+"type3d": "shorts",
+"hemw": 0.8,
+"preset": "Adult male"
+}
+},
+{
+"id": "mini-skirt",
+"name": "Mini Skirt",
+"family": "Skirts and dresses",
+"region": "Western",
+"gender": "Women",
+"block": {
+"kind": "skirt",
+"len": 0.18,
+"sleeve": 0,
+"ease": 4,
+"flare": 0.2,
+"type3d": "skirt",
+"preset": "Adult female"
+}
+},
+{
+"id": "midi-skirt",
+"name": "Midi Skirt",
+"family": "Skirts and dresses",
+"region": "Western",
+"gender": "Women",
+"block": {
+"kind": "skirt",
+"len": 0.42,
+"sleeve": 0,
+"ease": 4,
+"flare": 0.2,
+"type3d": "skirt",
+"preset": "Adult female"
+}
+},
+{
+"id": "maxi-skirt",
+"name": "Maxi Skirt",
+"family": "Skirts and dresses",
+"region": "Western",
+"gender": "Women",
+"block": {
+"kind": "skirt",
+"len": 0.54,
+"sleeve": 0,
+"ease": 4,
+"flare": 0.2,
+"type3d": "skirt",
+"preset": "Adult female"
+}
+},
+{
+"id": "pencil-skirt",
+"name": "Pencil Skirt",
+"family": "Skirts and dresses",
+"region": "Western",
+"gender": "Women",
+"pieces": [
+"Front",
+"Back x2",
+"Waistband"
+],
+"block": {
+"kind": "skirt",
+"len": 0.32,
+"sleeve": 0,
+"ease": 4,
+"flare": 0.05,
+"type3d": "skirt",
+"preset": "Adult female"
+}
+},
+{
+"id": "pleated-skirt",
+"name": "Pleated Skirt",
+"family": "Skirts and dresses",
+"region": "Western",
+"gender": "Women",
+"block": {
+"kind": "skirt",
+"len": 0.32,
+"sleeve": 0,
+"ease": 4,
+"flare": 0.45,
+"type3d": "skirt",
+"preset": "Adult female"
+}
+},
+{
+"id": "wrap-skirt",
+"name": "Wrap Skirt",
+"family": "Skirts and dresses",
+"region": "Western",
+"gender": "Women",
+"block": {
+"kind": "skirt",
+"len": 0.32,
+"sleeve": 0,
+"ease": 4,
+"flare": 0.45,
+"type3d": "skirt",
+"preset": "Adult female"
+}
+},
+{
+"id": "a-line-skirt",
+"name": "A-Line Skirt",
+"family": "Skirts and dresses",
+"region": "Western",
+"gender": "Women",
+"pieces": [
+"Front",
+"Back x2",
+"Waistband"
+],
+"block": {
+"kind": "skirt",
+"len": 0.32,
+"sleeve": 0,
+"ease": 4,
+"flare": 0.45,
+"type3d": "skirt",
+"preset": "Adult female"
+}
+},
+{
+"id": "mini-dress",
+"name": "Mini Dress",
+"family": "Skirts and dresses",
+"region": "Western",
+"gender": "Women",
+"block": {
+"kind": "dress",
+"len": 0.42,
+"sleeve": 0,
+"ease": 8,
+"flare": 0.15,
+"type3d": "dress",
+"preset": "Adult female"
+}
+},
+{
+"id": "midi-dress",
+"name": "Midi Dress",
+"family": "Skirts and dresses",
+"region": "Western",
+"gender": "Women",
+"block": {
+"kind": "dress",
+"len": 0.58,
+"sleeve": 0,
+"ease": 8,
+"flare": 0.15,
+"type3d": "dress",
+"preset": "Adult female"
+}
+},
+{
+"id": "maxi-dress",
+"name": "Maxi Dress",
+"family": "Skirts and dresses",
+"region": "Western",
+"gender": "Women",
+"block": {
+"kind": "dress",
+"len": 0.78,
+"sleeve": 0,
+"ease": 8,
+"flare": 0.15,
+"type3d": "dress",
+"preset": "Adult female"
+}
+},
+{
+"id": "shift-dress",
+"name": "Shift Dress",
+"family": "Skirts and dresses",
+"region": "Western",
+"gender": "Women",
+"pieces": [
+"Front",
+"Back",
+"Facings"
+],
+"block": {
+"kind": "dress",
+"len": 0.58,
+"sleeve": 0,
+"ease": 8,
+"flare": 0.15,
+"type3d": "dress",
+"preset": "Adult female"
+}
+},
+{
+"id": "wrap-dress",
+"name": "Wrap Dress",
+"family": "Skirts and dresses",
+"region": "Western",
+"gender": "Women",
+"block": {
+"kind": "dress",
+"len": 0.58,
+"sleeve": 0,
+"ease": 8,
+"flare": 0.15,
+"type3d": "dress",
+"preset": "Adult female"
+}
+},
+{
+"id": "bodycon-dress",
+"name": "Bodycon Dress",
+"family": "Skirts and dresses",
+"region": "Western",
+"gender": "Women",
+"block": {
+"kind": "dress",
+"len": 0.58,
+"sleeve": 0,
+"ease": 4,
+"flare": 0.15,
+"type3d": "dress",
+"preset": "Adult female"
+}
+},
+{
+"id": "empire-dress",
+"name": "Empire Dress",
+"family": "Skirts and dresses",
+"region": "Western",
+"gender": "Women",
+"block": {
+"kind": "dress",
+"len": 0.58,
+"sleeve": 0,
+"ease": 8,
+"flare": 0.15,
+"type3d": "dress",
+"preset": "Adult female"
+}
+},
+{
+"id": "sheath-dress",
+"name": "Sheath Dress",
+"family": "Skirts and dresses",
+"region": "Western",
+"gender": "Women",
+"block": {
+"kind": "dress",
+"len": 0.58,
+"sleeve": 0,
+"ease": 4,
+"flare": 0.15,
+"type3d": "dress",
+"preset": "Adult female"
+}
+},
+{
+"id": "shirt-dress",
+"name": "Shirt Dress",
+"family": "Skirts and dresses",
+"region": "Western",
+"gender": "Women",
+"block": {
+"kind": "dress",
+"len": 0.58,
+"sleeve": 0,
+"ease": 8,
+"flare": 0.15,
+"type3d": "dress",
+"preset": "Adult female"
+}
+},
+{
+"id": "slip-dress",
+"name": "Slip Dress",
+"family": "Skirts and dresses",
+"region": "Western",
+"gender": "Women",
+"block": {
+"kind": "dress",
+"len": 0.58,
+"sleeve": 0,
+"ease": 4,
+"flare": 0.15,
+"type3d": "dress",
+"preset": "Adult female"
+}
+},
+{
+"id": "a-line-dress",
+"name": "A-Line Dress",
+"family": "Skirts and dresses",
+"region": "Western",
+"gender": "Women",
+"block": {
+"kind": "dress",
+"len": 0.58,
+"sleeve": 0,
+"ease": 8,
+"flare": 0.5,
+"type3d": "dress",
+"preset": "Adult female"
+}
+},
+{
+"id": "ball-gown",
+"name": "Ball Gown",
+"family": "Skirts and dresses",
+"region": "Western",
+"gender": "Women",
+"block": {
+"kind": "dress",
+"len": 0.78,
+"sleeve": 0,
+"ease": 8,
+"flare": 0.5,
+"type3d": "dress",
+"preset": "Adult female"
+}
+},
+{
+"id": "evening-dress",
+"name": "Evening Dress",
+"family": "Skirts and dresses",
+"region": "Western",
+"gender": "Women",
+"block": {
+"kind": "dress",
+"len": 0.78,
+"sleeve": 0,
+"ease": 8,
+"flare": 0.5,
+"type3d": "dress",
+"preset": "Adult female"
+}
+},
+{
+"id": "cocktail-dress",
+"name": "Cocktail Dress",
+"family": "Skirts and dresses",
+"region": "Western",
+"gender": "Women",
+"block": {
+"kind": "dress",
+"len": 0.58,
+"sleeve": 0,
+"ease": 8,
+"flare": 0.15,
+"type3d": "dress",
+"preset": "Adult female"
+}
+},
+{
+"id": "wedding-dress",
+"name": "Wedding Dress",
+"family": "Skirts and dresses",
+"region": "Western",
+"gender": "Women",
+"block": {
+"kind": "dress",
+"len": 0.78,
+"sleeve": 0,
+"ease": 8,
+"flare": 0.5,
+"type3d": "dress",
+"preset": "Adult female"
+}
+},
+{
+"id": "party-dress",
+"name": "Party Dress",
+"family": "Skirts and dresses",
+"region": "Western",
+"gender": "Women",
+"block": {
+"kind": "dress",
+"len": 0.58,
+"sleeve": 0,
+"ease": 8,
+"flare": 0.15,
+"type3d": "dress",
+"preset": "Adult female"
+}
+},
+{
+"id": "princess-dress",
+"name": "Princess Dress",
+"family": "Skirts and dresses",
+"region": "Western",
+"gender": "Women",
+"block": {
+"kind": "dress",
+"len": 0.78,
+"sleeve": 0,
+"ease": 8,
+"flare": 0.5,
+"type3d": "dress",
+"preset": "Adult female"
+}
+},
+{
+"id": "frock",
+"name": "Frock",
+"family": "Skirts and dresses",
+"region": "Western",
+"gender": "Women",
+"block": {
+"kind": "dress",
+"len": 0.58,
+"sleeve": 0,
+"ease": 8,
+"flare": 0.5,
+"type3d": "dress",
+"preset": "Adult female"
+}
+},
+{
+"id": "saree",
+"name": "Saree",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Women",
+"block": {
+"kind": "cloth",
+"len": 0.8,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "dress",
+"w": 1100,
+"l": 5500,
+"preset": "Adult female"
+}
+},
+{
+"id": "saree-cotton",
+"name": "Saree (Cotton)",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Women",
+"block": {
+"kind": "cloth",
+"len": 0.8,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "dress",
+"w": 1100,
+"l": 5500,
+"preset": "Adult female"
+}
+},
+{
+"id": "saree-silk",
+"name": "Saree (Silk)",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Women",
+"block": {
+"kind": "cloth",
+"len": 0.8,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "dress",
+"w": 1100,
+"l": 5500,
+"preset": "Adult female"
+}
+},
+{
+"id": "saree-linen",
+"name": "Saree (Linen)",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Women",
+"block": {
+"kind": "cloth",
+"len": 0.8,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "dress",
+"w": 1100,
+"l": 5500,
+"preset": "Adult female"
+}
+},
+{
+"id": "saree-chiffon",
+"name": "Saree (Chiffon)",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Women",
+"block": {
+"kind": "cloth",
+"len": 0.8,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "dress",
+"w": 1100,
+"l": 5500,
+"preset": "Adult female"
+}
+},
+{
+"id": "saree-georgette",
+"name": "Saree (Georgette)",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Women",
+"block": {
+"kind": "cloth",
+"len": 0.8,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "dress",
+"w": 1100,
+"l": 5500,
+"preset": "Adult female"
+}
+},
+{
+"id": "saree-organza",
+"name": "Saree (Organza)",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Women",
+"block": {
+"kind": "cloth",
+"len": 0.8,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "dress",
+"w": 1100,
+"l": 5500,
+"preset": "Adult female"
+}
+},
+{
+"id": "saree-banarasi",
+"name": "Saree (Banarasi)",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Women",
+"block": {
+"kind": "cloth",
+"len": 0.8,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "dress",
+"w": 1100,
+"l": 5500,
+"preset": "Adult female"
+}
+},
+{
+"id": "saree-kanjeevaram",
+"name": "Saree (Kanjeevaram)",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Women",
+"block": {
+"kind": "cloth",
+"len": 0.8,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "dress",
+"w": 1100,
+"l": 5500,
+"preset": "Adult female"
+}
+},
+{
+"id": "saree-mysore-silk",
+"name": "Saree (Mysore Silk)",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Women",
+"block": {
+"kind": "cloth",
+"len": 0.8,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "dress",
+"w": 1100,
+"l": 5500,
+"preset": "Adult female"
+}
+},
+{
+"id": "saree-kasavu",
+"name": "Saree (Kasavu)",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Women",
+"block": {
+"kind": "cloth",
+"len": 0.8,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "dress",
+"w": 1100,
+"l": 5500,
+"preset": "Adult female"
+}
+},
+{
+"id": "saree-bandhani",
+"name": "Saree (Bandhani)",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Women",
+"block": {
+"kind": "cloth",
+"len": 0.8,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "dress",
+"w": 1100,
+"l": 5500,
+"preset": "Adult female"
+}
+},
+{
+"id": "saree-chanderi",
+"name": "Saree (Chanderi)",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Women",
+"block": {
+"kind": "cloth",
+"len": 0.8,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "dress",
+"w": 1100,
+"l": 5500,
+"preset": "Adult female"
+}
+},
+{
+"id": "saree-sambalpuri",
+"name": "Saree (Sambalpuri)",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Women",
+"block": {
+"kind": "cloth",
+"len": 0.8,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "dress",
+"w": 1100,
+"l": 5500,
+"preset": "Adult female"
+}
+},
+{
+"id": "saree-paithani",
+"name": "Saree (Paithani)",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Women",
+"block": {
+"kind": "cloth",
+"len": 0.8,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "dress",
+"w": 1100,
+"l": 5500,
+"preset": "Adult female"
+}
+},
+{
+"id": "saree-tant",
+"name": "Saree (Tant)",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Women",
+"block": {
+"kind": "cloth",
+"len": 0.8,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "dress",
+"w": 1100,
+"l": 5500,
+"preset": "Adult female"
+}
+},
+{
+"id": "saree-jamdani",
+"name": "Saree (Jamdani)",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Women",
+"block": {
+"kind": "cloth",
+"len": 0.8,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "dress",
+"w": 1100,
+"l": 5500,
+"preset": "Adult female"
+}
+},
+{
+"id": "saree-baluchari",
+"name": "Saree (Baluchari)",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Women",
+"block": {
+"kind": "cloth",
+"len": 0.8,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "dress",
+"w": 1100,
+"l": 5500,
+"preset": "Adult female"
+}
+},
+{
+"id": "saree-nauvari",
+"name": "Saree (Nauvari)",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Women",
+"block": {
+"kind": "cloth",
+"len": 0.8,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "dress",
+"w": 1100,
+"l": 5500,
+"preset": "Adult female"
+}
+},
+{
+"id": "half-saree",
+"name": "Half Saree",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Women",
+"block": {
+"kind": "dress",
+"len": 0.8,
+"sleeve": 0.2,
+"ease": 6,
+"flare": 0.5,
+"type3d": "dress",
+"preset": "Adult female"
+}
+},
+{
+"id": "davani",
+"name": "Davani",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Women",
+"block": {
+"kind": "dress",
+"len": 0.8,
+"sleeve": 0.2,
+"ease": 6,
+"flare": 0.5,
+"type3d": "dress",
+"preset": "Adult female"
+}
+},
+{
+"id": "langa-voni",
+"name": "Langa Voni",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Women",
+"block": {
+"kind": "dress",
+"len": 0.8,
+"sleeve": 0.2,
+"ease": 6,
+"flare": 0.5,
+"type3d": "dress",
+"preset": "Adult female"
+}
+},
+{
+"id": "pavadai",
+"name": "Pavadai",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Women",
+"block": {
+"kind": "skirt",
+"len": 0.54,
+"sleeve": 0,
+"ease": 6,
+"flare": 0.5,
+"type3d": "skirt",
+"preset": "Adult female"
+}
+},
+{
+"id": "pavadai-davani",
+"name": "Pavadai Davani",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Women",
+"block": {
+"kind": "dress",
+"len": 0.8,
+"sleeve": 0.2,
+"ease": 6,
+"flare": 0.5,
+"type3d": "dress",
+"preset": "Adult female"
+}
+},
+{
+"id": "lehenga",
+"name": "Lehenga",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Women",
+"block": {
+"kind": "skirt",
+"len": 0.54,
+"sleeve": 0,
+"ease": 6,
+"flare": 0.5,
+"type3d": "skirt",
+"preset": "Adult female"
+}
+},
+{
+"id": "lehenga-choli",
+"name": "Lehenga Choli",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Women",
+"pieces": [
+"Choli front and back",
+"Sleeve x2",
+"Lehenga panels",
+"Dupatta"
+],
+"block": {
+"kind": "dress",
+"len": 0.8,
+"sleeve": 0.2,
+"ease": 6,
+"flare": 0.5,
+"type3d": "dress",
+"preset": "Adult female"
+}
+},
+{
+"id": "ghagra",
+"name": "Ghagra",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Women",
+"block": {
+"kind": "skirt",
+"len": 0.54,
+"sleeve": 0,
+"ease": 6,
+"flare": 0.5,
+"type3d": "skirt",
+"preset": "Adult female"
+}
+},
+{
+"id": "ghagra-choli",
+"name": "Ghagra Choli",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Women",
+"block": {
+"kind": "dress",
+"len": 0.8,
+"sleeve": 0.2,
+"ease": 6,
+"flare": 0.5,
+"type3d": "dress",
+"preset": "Adult female"
+}
+},
+{
+"id": "choli",
+"name": "Choli",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Women",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult female"
+}
+},
+{
+"id": "salwar-kameez",
+"name": "Salwar Kameez",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Women",
+"pieces": [
+"Kameez front and back",
+"Sleeve x2",
+"Salwar leg x2",
+"Dupatta"
+],
+"block": {
+"kind": "top",
+"len": 0.6,
+"sleeve": 1.0,
+"ease": 12,
+"flare": 0.05,
+"type3d": "kurta",
+"preset": "Adult female"
+}
+},
+{
+"id": "churidar-suit",
+"name": "Churidar Suit",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Women",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult female"
+}
+},
+{
+"id": "punjabi-suit",
+"name": "Punjabi Suit",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Women",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult female"
+}
+},
+{
+"id": "patiala-suit",
+"name": "Patiala Suit",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Women",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult female"
+}
+},
+{
+"id": "anarkali-suit",
+"name": "Anarkali Suit",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Women",
+"pieces": [
+"Bodice",
+"Flared skirt panels",
+"Sleeve x2",
+"Churidar leg x2",
+"Dupatta"
+],
+"block": {
+"kind": "top",
+"len": 0.6,
+"sleeve": 1.0,
+"ease": 12,
+"flare": 0.2,
+"type3d": "kurta",
+"preset": "Adult female"
+}
+},
+{
+"id": "kurti",
+"name": "Kurti",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Women",
+"block": {
+"kind": "top",
+"len": 0.5,
+"sleeve": 0.35,
+"ease": 12,
+"flare": 0.05,
+"type3d": "kurta",
+"preset": "Adult female"
+}
+},
+{
+"id": "kurta",
+"name": "Kurta",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Unisex",
+"pieces": [
+"Front",
+"Back",
+"Sleeve x2",
+"Neck facing",
+"Side panels"
+],
+"block": {
+"kind": "top",
+"len": 0.6,
+"sleeve": 1.0,
+"ease": 12,
+"flare": 0.05,
+"type3d": "kurta",
+"preset": "Adult male"
+}
+},
+{
+"id": "kurta-set",
+"name": "Kurta Set",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Women",
+"block": {
+"kind": "top",
+"len": 0.6,
+"sleeve": 1.0,
+"ease": 12,
+"flare": 0.05,
+"type3d": "kurta",
+"preset": "Adult female"
+}
+},
+{
+"id": "kurta-pajama",
+"name": "Kurta Pajama",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Men",
+"block": {
+"kind": "pants",
+"len": 0.56,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "trousers",
+"hemw": 0.62,
+"preset": "Adult male"
+}
+},
+{
+"id": "palazzo-set",
+"name": "Palazzo Set",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Women",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult female"
+}
+},
+{
+"id": "sharara-set",
+"name": "Sharara Set",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Women",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult female"
+}
+},
+{
+"id": "gharara-set",
+"name": "Gharara Set",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Women",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult female"
+}
+},
+{
+"id": "kaftan",
+"name": "Kaftan",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.75,
+"sleeve": 0.35,
+"ease": 12,
+"flare": 0.2,
+"type3d": "kurta",
+"preset": "Adult male"
+}
+},
+{
+"id": "dupatta",
+"name": "Dupatta",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Women",
+"block": {
+"kind": "cloth",
+"len": 0.8,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "dress",
+"w": 900,
+"l": 2250,
+"preset": "Adult female"
+}
+},
+{
+"id": "stole",
+"name": "Stole",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Unisex",
+"block": {
+"kind": "cloth",
+"len": 0.8,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "dress",
+"w": 700,
+"l": 2000,
+"preset": "Adult male"
+}
+},
+{
+"id": "sherwani",
+"name": "Sherwani",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Men",
+"pieces": [
+"Front x2",
+"Back",
+"Sleeve x2",
+"Collar",
+"Lining"
+],
+"block": {
+"kind": "top",
+"len": 0.6,
+"sleeve": 1.0,
+"ease": 12,
+"flare": 0.05,
+"type3d": "kurta",
+"preset": "Adult male"
+}
+},
+{
+"id": "achkan",
+"name": "Achkan",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Men",
+"block": {
+"kind": "top",
+"len": 0.6,
+"sleeve": 1.0,
+"ease": 12,
+"flare": 0.05,
+"type3d": "kurta",
+"preset": "Adult male"
+}
+},
+{
+"id": "bandhgala",
+"name": "Bandhgala",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Men",
+"block": {
+"kind": "top",
+"len": 0.6,
+"sleeve": 1.0,
+"ease": 12,
+"flare": 0.05,
+"type3d": "kurta",
+"preset": "Adult male"
+}
+},
+{
+"id": "jodhpuri-suit",
+"name": "Jodhpuri Suit",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Men",
+"block": {
+"kind": "top",
+"len": 0.6,
+"sleeve": 1.0,
+"ease": 12,
+"flare": 0.05,
+"type3d": "kurta",
+"preset": "Adult male"
+}
+},
+{
+"id": "nehru-jacket",
+"name": "Nehru Jacket",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Men",
+"block": {
+"kind": "top",
+"len": 0.5,
+"sleeve": 0,
+"ease": 12,
+"flare": 0.05,
+"type3d": "kurta",
+"preset": "Adult male"
+}
+},
+{
+"id": "pathani-suit",
+"name": "Pathani Suit",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Men",
+"block": {
+"kind": "top",
+"len": 0.6,
+"sleeve": 1.0,
+"ease": 12,
+"flare": 0.05,
+"type3d": "kurta",
+"preset": "Adult male"
+}
+},
+{
+"id": "angrakha",
+"name": "Angrakha",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.6,
+"sleeve": 1.0,
+"ease": 12,
+"flare": 0.05,
+"type3d": "kurta",
+"preset": "Adult male"
+}
+},
+{
+"id": "dhoti",
+"name": "Dhoti",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Men",
+"block": {
+"kind": "skirt",
+"len": 0.54,
+"sleeve": 0,
+"ease": 6,
+"flare": 0.15,
+"type3d": "skirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "veshti",
+"name": "Veshti",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Men",
+"block": {
+"kind": "skirt",
+"len": 0.54,
+"sleeve": 0,
+"ease": 6,
+"flare": 0.15,
+"type3d": "skirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "lungi",
+"name": "Lungi",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Men",
+"block": {
+"kind": "skirt",
+"len": 0.54,
+"sleeve": 0,
+"ease": 6,
+"flare": 0.15,
+"type3d": "skirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "mundu",
+"name": "Mundu",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Men",
+"block": {
+"kind": "skirt",
+"len": 0.54,
+"sleeve": 0,
+"ease": 6,
+"flare": 0.15,
+"type3d": "skirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "pancha",
+"name": "Pancha",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Men",
+"block": {
+"kind": "skirt",
+"len": 0.54,
+"sleeve": 0,
+"ease": 6,
+"flare": 0.15,
+"type3d": "skirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "pajama",
+"name": "Pajama",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Unisex",
+"block": {
+"kind": "pants",
+"len": 0.56,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "trousers",
+"hemw": 0.62,
+"preset": "Adult male"
+}
+},
+{
+"id": "churidar",
+"name": "Churidar",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Unisex",
+"block": {
+"kind": "pants",
+"len": 0.56,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "trousers",
+"hemw": 0.5,
+"preset": "Adult male"
+}
+},
+{
+"id": "safari-suit",
+"name": "Safari Suit",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Men",
+"block": {
+"kind": "top",
+"len": 0.5,
+"sleeve": 0.35,
+"ease": 12,
+"flare": 0.05,
+"type3d": "kurta",
+"preset": "Adult male"
+}
+},
+{
+"id": "indo-western",
+"name": "Indo-Western",
+"family": "Indian wear",
+"region": "Indian",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.6,
+"sleeve": 0.35,
+"ease": 12,
+"flare": 0.05,
+"type3d": "kurta",
+"preset": "Adult male"
+}
+},
+{
+"id": "kimono",
+"name": "Kimono",
+"family": "Global traditional wear",
+"region": "Global",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.75,
+"sleeve": 1.0,
+"ease": 12,
+"flare": 0.2,
+"type3d": "kurta",
+"preset": "Adult male"
+}
+},
+{
+"id": "yukata",
+"name": "Yukata",
+"family": "Global traditional wear",
+"region": "Global",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.75,
+"sleeve": 1.0,
+"ease": 12,
+"flare": 0.05,
+"type3d": "kurta",
+"preset": "Adult male"
+}
+},
+{
+"id": "hakama",
+"name": "Hakama",
+"family": "Global traditional wear",
+"region": "Global",
+"gender": "Men",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "hanbok",
+"name": "Hanbok",
+"family": "Global traditional wear",
+"region": "Global",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.6,
+"sleeve": 1.0,
+"ease": 12,
+"flare": 0.05,
+"type3d": "kurta",
+"preset": "Adult male"
+}
+},
+{
+"id": "hanfu",
+"name": "Hanfu",
+"family": "Global traditional wear",
+"region": "Global",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.75,
+"sleeve": 1.0,
+"ease": 12,
+"flare": 0.2,
+"type3d": "kurta",
+"preset": "Adult male"
+}
+},
+{
+"id": "qipao",
+"name": "Qipao",
+"family": "Global traditional wear",
+"region": "Global",
+"gender": "Women",
+"block": {
+"kind": "top",
+"len": 0.6,
+"sleeve": 1.0,
+"ease": 12,
+"flare": 0.05,
+"type3d": "kurta",
+"preset": "Adult female"
+}
+},
+{
+"id": "cheongsam",
+"name": "Cheongsam",
+"family": "Global traditional wear",
+"region": "Global",
+"gender": "Women",
+"block": {
+"kind": "top",
+"len": 0.6,
+"sleeve": 1.0,
+"ease": 12,
+"flare": 0.05,
+"type3d": "kurta",
+"preset": "Adult female"
+}
+},
+{
+"id": "changshan",
+"name": "Changshan",
+"family": "Global traditional wear",
+"region": "Global",
+"gender": "Men",
+"block": {
+"kind": "top",
+"len": 0.6,
+"sleeve": 0.35,
+"ease": 12,
+"flare": 0.05,
+"type3d": "kurta",
+"preset": "Adult male"
+}
+},
+{
+"id": "ao-dai",
+"name": "Ao Dai",
+"family": "Global traditional wear",
+"region": "Global",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.6,
+"sleeve": 0.35,
+"ease": 12,
+"flare": 0.05,
+"type3d": "kurta",
+"preset": "Adult male"
+}
+},
+{
+"id": "baju-kurung",
+"name": "Baju Kurung",
+"family": "Global traditional wear",
+"region": "Global",
+"gender": "Women",
+"block": {
+"kind": "top",
+"len": 0.6,
+"sleeve": 0.35,
+"ease": 12,
+"flare": 0.05,
+"type3d": "kurta",
+"preset": "Adult female"
+}
+},
+{
+"id": "baju-melayu",
+"name": "Baju Melayu",
+"family": "Global traditional wear",
+"region": "Global",
+"gender": "Men",
+"block": {
+"kind": "top",
+"len": 0.6,
+"sleeve": 0.35,
+"ease": 12,
+"flare": 0.05,
+"type3d": "kurta",
+"preset": "Adult male"
+}
+},
+{
+"id": "kebaya",
+"name": "Kebaya",
+"family": "Global traditional wear",
+"region": "Global",
+"gender": "Women",
+"block": {
+"kind": "top",
+"len": 0.5,
+"sleeve": 0.35,
+"ease": 12,
+"flare": 0.05,
+"type3d": "kurta",
+"preset": "Adult female"
+}
+},
+{
+"id": "sarong",
+"name": "Sarong",
+"family": "Global traditional wear",
+"region": "Global",
+"gender": "Unisex",
+"block": {
+"kind": "skirt",
+"len": 0.54,
+"sleeve": 0,
+"ease": 6,
+"flare": 0.15,
+"type3d": "skirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "barong-tagalog",
+"name": "Barong Tagalog",
+"family": "Global traditional wear",
+"region": "Global",
+"gender": "Men",
+"block": {
+"kind": "top",
+"len": 0.5,
+"sleeve": 0.35,
+"ease": 12,
+"flare": 0.05,
+"type3d": "kurta",
+"preset": "Adult male"
+}
+},
+{
+"id": "chut-thai",
+"name": "Chut Thai",
+"family": "Global traditional wear",
+"region": "Global",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.6,
+"sleeve": 0.35,
+"ease": 12,
+"flare": 0.05,
+"type3d": "kurta",
+"preset": "Adult male"
+}
+},
+{
+"id": "thobe",
+"name": "Thobe",
+"family": "Global traditional wear",
+"region": "Global",
+"gender": "Men",
+"block": {
+"kind": "top",
+"len": 0.75,
+"sleeve": 1.0,
+"ease": 12,
+"flare": 0.05,
+"type3d": "kurta",
+"preset": "Adult male"
+}
+},
+{
+"id": "abaya",
+"name": "Abaya",
+"family": "Global traditional wear",
+"region": "Global",
+"gender": "Women",
+"block": {
+"kind": "top",
+"len": 0.75,
+"sleeve": 1.0,
+"ease": 12,
+"flare": 0.05,
+"type3d": "kurta",
+"preset": "Adult female"
+}
+},
+{
+"id": "bisht",
+"name": "Bisht",
+"family": "Global traditional wear",
+"region": "Global",
+"gender": "Men",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "jalabiya",
+"name": "Jalabiya",
+"family": "Global traditional wear",
+"region": "Global",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.75,
+"sleeve": 1.0,
+"ease": 12,
+"flare": 0.05,
+"type3d": "kurta",
+"preset": "Adult male"
+}
+},
+{
+"id": "dashiki",
+"name": "Dashiki",
+"family": "Global traditional wear",
+"region": "Global",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.5,
+"sleeve": 0.35,
+"ease": 12,
+"flare": 0.05,
+"type3d": "kurta",
+"preset": "Adult male"
+}
+},
+{
+"id": "agbada",
+"name": "Agbada",
+"family": "Global traditional wear",
+"region": "Global",
+"gender": "Men",
+"block": {
+"kind": "top",
+"len": 0.75,
+"sleeve": 1.0,
+"ease": 12,
+"flare": 0.05,
+"type3d": "kurta",
+"preset": "Adult male"
+}
+},
+{
+"id": "boubou",
+"name": "Boubou",
+"family": "Global traditional wear",
+"region": "Global",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.75,
+"sleeve": 0.35,
+"ease": 12,
+"flare": 0.05,
+"type3d": "kurta",
+"preset": "Adult male"
+}
+},
+{
+"id": "djellaba",
+"name": "Djellaba",
+"family": "Global traditional wear",
+"region": "Global",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.75,
+"sleeve": 1.0,
+"ease": 12,
+"flare": 0.05,
+"type3d": "kurta",
+"preset": "Adult male"
+}
+},
+{
+"id": "caftan",
+"name": "Caftan",
+"family": "Global traditional wear",
+"region": "Global",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.75,
+"sleeve": 0.35,
+"ease": 12,
+"flare": 0.2,
+"type3d": "kurta",
+"preset": "Adult male"
+}
+},
+{
+"id": "huipil",
+"name": "Huipil",
+"family": "Global traditional wear",
+"region": "Global",
+"gender": "Women",
+"block": {
+"kind": "top",
+"len": 0.5,
+"sleeve": 0.35,
+"ease": 12,
+"flare": 0.05,
+"type3d": "kurta",
+"preset": "Adult female"
+}
+},
+{
+"id": "dirndl",
+"name": "Dirndl",
+"family": "Global traditional wear",
+"region": "Global",
+"gender": "Women",
+"block": {
+"kind": "top",
+"len": 0.6,
+"sleeve": 0.35,
+"ease": 12,
+"flare": 0.05,
+"type3d": "kurta",
+"preset": "Adult female"
+}
+},
+{
+"id": "lederhosen",
+"name": "Lederhosen",
+"family": "Global traditional wear",
+"region": "Global",
+"gender": "Men",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "kilt",
+"name": "Kilt",
+"family": "Global traditional wear",
+"region": "Global",
+"gender": "Men",
+"block": {
+"kind": "skirt",
+"len": 0.3,
+"sleeve": 0,
+"ease": 6,
+"flare": 0.15,
+"type3d": "skirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "sports-t-shirt",
+"name": "Sports T-Shirt",
+"family": "Sports and swim",
+"region": "Sports",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "sports-shorts",
+"name": "Sports Shorts",
+"family": "Sports and swim",
+"region": "Sports",
+"gender": "Unisex",
+"block": {
+"kind": "pants",
+"len": 0.22,
+"sleeve": 0,
+"ease": 6,
+"flare": 0,
+"type3d": "shorts",
+"hemw": 0.95,
+"preset": "Adult male"
+}
+},
+{
+"id": "training-pants",
+"name": "Training Pants",
+"family": "Sports and swim",
+"region": "Sports",
+"gender": "Unisex",
+"block": {
+"kind": "pants",
+"len": 0.56,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "trousers",
+"hemw": 0.62,
+"preset": "Adult male"
+}
+},
+{
+"id": "tracksuit",
+"name": "Tracksuit",
+"family": "Sports and swim",
+"region": "Sports",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "compression-shirt",
+"name": "Compression Shirt",
+"family": "Sports and swim",
+"region": "Sports",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 1.0,
+"ease": 10,
+"flare": 0,
+"type3d": "shirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "compression-pants",
+"name": "Compression Pants",
+"family": "Sports and swim",
+"region": "Sports",
+"gender": "Unisex",
+"block": {
+"kind": "pants",
+"len": 0.56,
+"sleeve": 0,
+"ease": 0,
+"flare": 0,
+"type3d": "trousers",
+"hemw": 0.5,
+"preset": "Adult male"
+}
+},
+{
+"id": "gym-tank",
+"name": "Gym Tank",
+"family": "Sports and swim",
+"region": "Sports",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.38,
+"sleeve": 0,
+"ease": 4,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "yoga-pants",
+"name": "Yoga Pants",
+"family": "Sports and swim",
+"region": "Sports",
+"gender": "Women",
+"block": {
+"kind": "pants",
+"len": 0.56,
+"sleeve": 0,
+"ease": 0,
+"flare": 0,
+"type3d": "trousers",
+"hemw": 0.5,
+"preset": "Adult female"
+}
+},
+{
+"id": "yoga-top",
+"name": "Yoga Top",
+"family": "Sports and swim",
+"region": "Sports",
+"gender": "Women",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult female"
+}
+},
+{
+"id": "running-jacket",
+"name": "Running Jacket",
+"family": "Sports and swim",
+"region": "Sports",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 1.0,
+"ease": 14,
+"flare": 0,
+"type3d": "shirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "running-shorts",
+"name": "Running Shorts",
+"family": "Sports and swim",
+"region": "Sports",
+"gender": "Unisex",
+"block": {
+"kind": "pants",
+"len": 0.22,
+"sleeve": 0,
+"ease": 6,
+"flare": 0,
+"type3d": "shorts",
+"hemw": 0.95,
+"preset": "Adult male"
+}
+},
+{
+"id": "cycling-jersey",
+"name": "Cycling Jersey",
+"family": "Sports and swim",
+"region": "Sports",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "cricket-jersey",
+"name": "Cricket Jersey",
+"family": "Sports and swim",
+"region": "Sports",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "football-jersey",
+"name": "Football Jersey",
+"family": "Sports and swim",
+"region": "Sports",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "basketball-jersey",
+"name": "Basketball Jersey",
+"family": "Sports and swim",
+"region": "Sports",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "volleyball-jersey",
+"name": "Volleyball Jersey",
+"family": "Sports and swim",
+"region": "Sports",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "tennis-dress",
+"name": "Tennis Dress",
+"family": "Sports and swim",
+"region": "Sports",
+"gender": "Women",
+"block": {
+"kind": "dress",
+"len": 0.58,
+"sleeve": 0,
+"ease": 8,
+"flare": 0.15,
+"type3d": "dress",
+"preset": "Adult female"
+}
+},
+{
+"id": "swimsuit",
+"name": "Swimsuit",
+"family": "Sports and swim",
+"region": "Sports",
+"gender": "Women",
+"block": {
+"kind": "top",
+"len": 0.4,
+"sleeve": 0,
+"ease": 0,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult female"
+}
+},
+{
+"id": "bikini",
+"name": "Bikini",
+"family": "Sports and swim",
+"region": "Sports",
+"gender": "Women",
+"block": {
+"kind": "top",
+"len": 0.15,
+"sleeve": 0,
+"ease": 0,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult female"
+}
+},
+{
+"id": "monokini",
+"name": "Monokini",
+"family": "Sports and swim",
+"region": "Sports",
+"gender": "Women",
+"block": {
+"kind": "top",
+"len": 0.4,
+"sleeve": 0,
+"ease": 0,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult female"
+}
+},
+{
+"id": "swim-trunks",
+"name": "Swim Trunks",
+"family": "Sports and swim",
+"region": "Sports",
+"gender": "Men",
+"block": {
+"kind": "pants",
+"len": 0.13,
+"sleeve": 0,
+"ease": 0,
+"flare": 0,
+"type3d": "shorts",
+"hemw": 0.8,
+"preset": "Adult male"
+}
+},
+{
+"id": "rash-guard",
+"name": "Rash Guard",
+"family": "Sports and swim",
+"region": "Sports",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 1.0,
+"ease": 0,
+"flare": 0,
+"type3d": "shirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "wetsuit",
+"name": "Wetsuit",
+"family": "Sports and swim",
+"region": "Sports",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.4,
+"sleeve": 1,
+"ease": 0,
+"flare": 0,
+"type3d": "shirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "beach-cover-up",
+"name": "Beach Cover-Up",
+"family": "Sports and swim",
+"region": "Sports",
+"gender": "Women",
+"block": {
+"kind": "dress",
+"len": 0.7,
+"sleeve": 0,
+"ease": 10,
+"flare": 0.3,
+"type3d": "dress",
+"preset": "Adult female"
+}
+},
+{
+"id": "night-dress",
+"name": "Night Dress",
+"family": "Sleep and intimates",
+"region": "Intimates",
+"gender": "Women",
+"block": {
+"kind": "dress",
+"len": 0.7,
+"sleeve": 0,
+"ease": 10,
+"flare": 0.3,
+"type3d": "dress",
+"preset": "Adult female"
+}
+},
+{
+"id": "night-gown",
+"name": "Night Gown",
+"family": "Sleep and intimates",
+"region": "Intimates",
+"gender": "Women",
+"block": {
+"kind": "dress",
+"len": 0.7,
+"sleeve": 0.3,
+"ease": 10,
+"flare": 0.3,
+"type3d": "dress",
+"preset": "Adult female"
+}
+},
+{
+"id": "pajama-set",
+"name": "Pajama Set",
+"family": "Sleep and intimates",
+"region": "Intimates",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "sleep-shirt",
+"name": "Sleep Shirt",
+"family": "Sleep and intimates",
+"region": "Intimates",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 1.0,
+"ease": 10,
+"flare": 0,
+"type3d": "shirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "robe",
+"name": "Robe",
+"family": "Sleep and intimates",
+"region": "Intimates",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.75,
+"sleeve": 1.0,
+"ease": 12,
+"flare": 0.2,
+"type3d": "kurta",
+"preset": "Adult male"
+}
+},
+{
+"id": "lounge-wear",
+"name": "Lounge Wear",
+"family": "Sleep and intimates",
+"region": "Intimates",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "bra",
+"name": "Bra",
+"family": "Sleep and intimates",
+"region": "Intimates",
+"gender": "Women",
+"block": {
+"kind": "top",
+"len": 0.15,
+"sleeve": 0,
+"ease": 0,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult female"
+}
+},
+{
+"id": "sports-bra",
+"name": "Sports Bra",
+"family": "Sleep and intimates",
+"region": "Intimates",
+"gender": "Women",
+"block": {
+"kind": "top",
+"len": 0.15,
+"sleeve": 0,
+"ease": 0,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult female"
+}
+},
+{
+"id": "bralette",
+"name": "Bralette",
+"family": "Sleep and intimates",
+"region": "Intimates",
+"gender": "Women",
+"block": {
+"kind": "top",
+"len": 0.15,
+"sleeve": 0,
+"ease": 0,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult female"
+}
+},
+{
+"id": "panties",
+"name": "Panties",
+"family": "Sleep and intimates",
+"region": "Intimates",
+"gender": "Women",
+"block": {
+"kind": "pants",
+"len": 0.08,
+"sleeve": 0,
+"ease": 0,
+"flare": 0,
+"type3d": "shorts",
+"hemw": 0.8,
+"preset": "Adult female"
+}
+},
+{
+"id": "boxers",
+"name": "Boxers",
+"family": "Sleep and intimates",
+"region": "Intimates",
+"gender": "Men",
+"block": {
+"kind": "pants",
+"len": 0.13,
+"sleeve": 0,
+"ease": 6,
+"flare": 0,
+"type3d": "shorts",
+"hemw": 0.95,
+"preset": "Adult male"
+}
+},
+{
+"id": "briefs",
+"name": "Briefs",
+"family": "Sleep and intimates",
+"region": "Intimates",
+"gender": "Men",
+"block": {
+"kind": "pants",
+"len": 0.13,
+"sleeve": 0,
+"ease": 0,
+"flare": 0,
+"type3d": "shorts",
+"hemw": 0.8,
+"preset": "Adult male"
+}
+},
+{
+"id": "trunks",
+"name": "Trunks",
+"family": "Sleep and intimates",
+"region": "Intimates",
+"gender": "Men",
+"block": {
+"kind": "pants",
+"len": 0.13,
+"sleeve": 0,
+"ease": 0,
+"flare": 0,
+"type3d": "shorts",
+"hemw": 0.8,
+"preset": "Adult male"
+}
+},
+{
+"id": "slip",
+"name": "Slip",
+"family": "Sleep and intimates",
+"region": "Intimates",
+"gender": "Women",
+"block": {
+"kind": "top",
+"len": 0.8,
+"sleeve": 1,
+"ease": 14,
+"flare": 0,
+"type3d": "kurta",
+"preset": "Adult female"
+}
+},
+{
+"id": "shapewear",
+"name": "Shapewear",
+"family": "Sleep and intimates",
+"region": "Intimates",
+"gender": "Women",
+"block": {
+"kind": "top",
+"len": 0.4,
+"sleeve": 0,
+"ease": 0,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult female"
+}
+},
+{
+"id": "thermal-wear",
+"name": "Thermal Wear",
+"family": "Sleep and intimates",
+"region": "Intimates",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 1.0,
+"ease": 0,
+"flare": 0,
+"type3d": "shirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "compression-wear",
+"name": "Compression Wear",
+"family": "Sleep and intimates",
+"region": "Intimates",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 0,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "business-suit",
+"name": "Business Suit",
+"family": "Formal wear",
+"region": "Western",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "two-piece-suit",
+"name": "Two-Piece Suit",
+"family": "Formal wear",
+"region": "Western",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "three-piece-suit",
+"name": "Three-Piece Suit",
+"family": "Formal wear",
+"region": "Western",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "tuxedo",
+"name": "Tuxedo",
+"family": "Formal wear",
+"region": "Western",
+"gender": "Men",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "romper",
+"name": "Romper",
+"family": "Kids and baby",
+"region": "Kids",
+"gender": "Kids",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Baby (about 1 year)"
+}
+},
+{
+"id": "onesie",
+"name": "Onesie",
+"family": "Kids and baby",
+"region": "Kids",
+"gender": "Kids",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Baby (about 1 year)"
+}
+},
+{
+"id": "baby-suit",
+"name": "Baby Suit",
+"family": "Kids and baby",
+"region": "Kids",
+"gender": "Kids",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Baby (about 1 year)"
+}
+},
+{
+"id": "baby-dress",
+"name": "Baby Dress",
+"family": "Kids and baby",
+"region": "Kids",
+"gender": "Kids",
+"block": {
+"kind": "dress",
+"len": 0.58,
+"sleeve": 0,
+"ease": 8,
+"flare": 0.15,
+"type3d": "dress",
+"preset": "Baby (about 1 year)"
+}
+},
+{
+"id": "kids-t-shirt",
+"name": "Kids T-Shirt",
+"family": "Kids and baby",
+"region": "Kids",
+"gender": "Kids",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Kid (about 8 years)"
+}
+},
+{
+"id": "kids-shirt",
+"name": "Kids Shirt",
+"family": "Kids and baby",
+"region": "Kids",
+"gender": "Kids",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 1.0,
+"ease": 10,
+"flare": 0,
+"type3d": "shirt",
+"preset": "Kid (about 8 years)"
+}
+},
+{
+"id": "kids-jeans",
+"name": "Kids Jeans",
+"family": "Kids and baby",
+"region": "Kids",
+"gender": "Kids",
+"block": {
+"kind": "pants",
+"len": 0.56,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "trousers",
+"hemw": 0.62,
+"preset": "Kid (about 8 years)"
+}
+},
+{
+"id": "kids-shorts",
+"name": "Kids Shorts",
+"family": "Kids and baby",
+"region": "Kids",
+"gender": "Kids",
+"block": {
+"kind": "pants",
+"len": 0.22,
+"sleeve": 0,
+"ease": 6,
+"flare": 0,
+"type3d": "shorts",
+"hemw": 0.95,
+"preset": "Kid (about 8 years)"
+}
+},
+{
+"id": "kids-hoodie",
+"name": "Kids Hoodie",
+"family": "Kids and baby",
+"region": "Kids",
+"gender": "Kids",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 1.0,
+"ease": 16,
+"flare": 0,
+"type3d": "shirt",
+"preset": "Kid (about 8 years)"
+}
+},
+{
+"id": "kids-jacket",
+"name": "Kids Jacket",
+"family": "Kids and baby",
+"region": "Kids",
+"gender": "Kids",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 1.0,
+"ease": 14,
+"flare": 0,
+"type3d": "shirt",
+"preset": "Kid (about 8 years)"
+}
+},
+{
+"id": "kids-kurta",
+"name": "Kids Kurta",
+"family": "Kids and baby",
+"region": "Kids",
+"gender": "Kids",
+"block": {
+"kind": "top",
+"len": 0.6,
+"sleeve": 1.0,
+"ease": 12,
+"flare": 0.05,
+"type3d": "kurta",
+"preset": "Kid (about 8 years)"
+}
+},
+{
+"id": "kids-sherwani",
+"name": "Kids Sherwani",
+"family": "Kids and baby",
+"region": "Kids",
+"gender": "Kids",
+"block": {
+"kind": "top",
+"len": 0.6,
+"sleeve": 1.0,
+"ease": 12,
+"flare": 0.05,
+"type3d": "kurta",
+"preset": "Kid (about 8 years)"
+}
+},
+{
+"id": "kids-lehenga",
+"name": "Kids Lehenga",
+"family": "Kids and baby",
+"region": "Kids",
+"gender": "Kids",
+"block": {
+"kind": "dress",
+"len": 0.8,
+"sleeve": 0.2,
+"ease": 6,
+"flare": 0.5,
+"type3d": "dress",
+"preset": "Kid (about 8 years)"
+}
+},
+{
+"id": "kids-ghagra-choli",
+"name": "Kids Ghagra Choli",
+"family": "Kids and baby",
+"region": "Kids",
+"gender": "Kids",
+"block": {
+"kind": "dress",
+"len": 0.8,
+"sleeve": 0.2,
+"ease": 6,
+"flare": 0.5,
+"type3d": "dress",
+"preset": "Kid (about 8 years)"
+}
+},
+{
+"id": "kids-pavadai",
+"name": "Kids Pavadai",
+"family": "Kids and baby",
+"region": "Kids",
+"gender": "Kids",
+"block": {
+"kind": "dress",
+"len": 0.8,
+"sleeve": 0.2,
+"ease": 6,
+"flare": 0.5,
+"type3d": "dress",
+"preset": "Kid (about 8 years)"
+}
+},
+{
+"id": "kids-saree",
+"name": "Kids Saree",
+"family": "Kids and baby",
+"region": "Kids",
+"gender": "Kids",
+"block": {
+"kind": "cloth",
+"len": 0.8,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "dress",
+"w": 1100,
+"l": 5500,
+"preset": "Kid (about 8 years)"
+}
+},
+{
+"id": "kids-dhoti",
+"name": "Kids Dhoti",
+"family": "Kids and baby",
+"region": "Kids",
+"gender": "Kids",
+"block": {
+"kind": "skirt",
+"len": 0.54,
+"sleeve": 0,
+"ease": 6,
+"flare": 0.15,
+"type3d": "skirt",
+"preset": "Kid (about 8 years)"
+}
+},
+{
+"id": "school-uniform",
+"name": "School Uniform",
+"family": "Uniforms and protective",
+"region": "Workwear",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "college-uniform",
+"name": "College Uniform",
+"family": "Uniforms and protective",
+"region": "Workwear",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "doctor-lab-coat",
+"name": "Doctor Lab Coat",
+"family": "Uniforms and protective",
+"region": "Workwear",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.62,
+"sleeve": 1.0,
+"ease": 14,
+"flare": 0,
+"type3d": "kurta",
+"preset": "Adult male"
+}
+},
+{
+"id": "medical-scrubs",
+"name": "Medical Scrubs",
+"family": "Uniforms and protective",
+"region": "Workwear",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "nurse-uniform",
+"name": "Nurse Uniform",
+"family": "Uniforms and protective",
+"region": "Workwear",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "chef-uniform",
+"name": "Chef Uniform",
+"family": "Uniforms and protective",
+"region": "Workwear",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "hotel-uniform",
+"name": "Hotel Uniform",
+"family": "Uniforms and protective",
+"region": "Workwear",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "security-uniform",
+"name": "Security Uniform",
+"family": "Uniforms and protective",
+"region": "Workwear",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "police-uniform",
+"name": "Police Uniform",
+"family": "Uniforms and protective",
+"region": "Workwear",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "military-uniform",
+"name": "Military Uniform",
+"family": "Uniforms and protective",
+"region": "Workwear",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "industrial-uniform",
+"name": "Industrial Uniform",
+"family": "Uniforms and protective",
+"region": "Workwear",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "mechanic-suit",
+"name": "Mechanic Suit",
+"family": "Uniforms and protective",
+"region": "Workwear",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.8,
+"sleeve": 1,
+"ease": 14,
+"flare": 0,
+"type3d": "kurta",
+"preset": "Adult male"
+}
+},
+{
+"id": "boiler-suit",
+"name": "Boiler Suit",
+"family": "Uniforms and protective",
+"region": "Workwear",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.8,
+"sleeve": 1,
+"ease": 14,
+"flare": 0,
+"type3d": "kurta",
+"preset": "Adult male"
+}
+},
+{
+"id": "coverall",
+"name": "Coverall",
+"family": "Uniforms and protective",
+"region": "Workwear",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.8,
+"sleeve": 1,
+"ease": 14,
+"flare": 0,
+"type3d": "kurta",
+"preset": "Adult male"
+}
+},
+{
+"id": "ppe-suit",
+"name": "PPE Suit",
+"family": "Uniforms and protective",
+"region": "Workwear",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.8,
+"sleeve": 1,
+"ease": 14,
+"flare": 0,
+"type3d": "kurta",
+"preset": "Adult male"
+}
+},
+{
+"id": "reflective-safety-vest",
+"name": "Reflective Safety Vest",
+"family": "Uniforms and protective",
+"region": "Workwear",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.38,
+"sleeve": 0,
+"ease": 4,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "fire-suit",
+"name": "Fire Suit",
+"family": "Uniforms and protective",
+"region": "Workwear",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.8,
+"sleeve": 1,
+"ease": 14,
+"flare": 0,
+"type3d": "kurta",
+"preset": "Adult male"
+}
+},
+{
+"id": "racing-suit",
+"name": "Racing Suit",
+"family": "Uniforms and protective",
+"region": "Workwear",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.8,
+"sleeve": 1,
+"ease": 14,
+"flare": 0,
+"type3d": "kurta",
+"preset": "Adult male"
+}
+},
+{
+"id": "motorcycle-suit",
+"name": "Motorcycle Suit",
+"family": "Uniforms and protective",
+"region": "Workwear",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.8,
+"sleeve": 1,
+"ease": 14,
+"flare": 0,
+"type3d": "kurta",
+"preset": "Adult male"
+}
+},
+{
+"id": "apron",
+"name": "Apron",
+"family": "Uniforms and protective",
+"region": "Workwear",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "bridal-saree",
+"name": "Bridal Saree",
+"family": "Design categories",
+"region": "Design",
+"gender": "Women",
+"block": {
+"kind": "cloth",
+"len": 0.8,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "dress",
+"w": 1100,
+"l": 5500,
+"preset": "Adult female"
+}
+},
+{
+"id": "bridal-lehenga",
+"name": "Bridal Lehenga",
+"family": "Design categories",
+"region": "Design",
+"gender": "Women",
+"block": {
+"kind": "dress",
+"len": 0.8,
+"sleeve": 0.2,
+"ease": 6,
+"flare": 0.5,
+"type3d": "dress",
+"preset": "Adult female"
+}
+},
+{
+"id": "bridal-gown",
+"name": "Bridal Gown",
+"family": "Design categories",
+"region": "Design",
+"gender": "Women",
+"block": {
+"kind": "dress",
+"len": 0.78,
+"sleeve": 0,
+"ease": 8,
+"flare": 0.5,
+"type3d": "dress",
+"preset": "Adult female"
+}
+},
+{
+"id": "reception-gown",
+"name": "Reception Gown",
+"family": "Design categories",
+"region": "Design",
+"gender": "Women",
+"block": {
+"kind": "dress",
+"len": 0.78,
+"sleeve": 0,
+"ease": 8,
+"flare": 0.5,
+"type3d": "dress",
+"preset": "Adult female"
+}
+},
+{
+"id": "engagement-dress",
+"name": "Engagement Dress",
+"family": "Design categories",
+"region": "Design",
+"gender": "Women",
+"block": {
+"kind": "dress",
+"len": 0.58,
+"sleeve": 0,
+"ease": 8,
+"flare": 0.15,
+"type3d": "dress",
+"preset": "Adult female"
+}
+},
+{
+"id": "designer-gown",
+"name": "Designer Gown",
+"family": "Design categories",
+"region": "Design",
+"gender": "Women",
+"block": {
+"kind": "dress",
+"len": 0.78,
+"sleeve": 0,
+"ease": 8,
+"flare": 0.5,
+"type3d": "dress",
+"preset": "Adult female"
+}
+},
+{
+"id": "designer-saree",
+"name": "Designer Saree",
+"family": "Design categories",
+"region": "Design",
+"gender": "Women",
+"block": {
+"kind": "cloth",
+"len": 0.8,
+"sleeve": 0,
+"ease": 8,
+"flare": 0,
+"type3d": "dress",
+"w": 1100,
+"l": 5500,
+"preset": "Adult female"
+}
+},
+{
+"id": "designer-kurta",
+"name": "Designer Kurta",
+"family": "Design categories",
+"region": "Design",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.6,
+"sleeve": 1.0,
+"ease": 12,
+"flare": 0.05,
+"type3d": "kurta",
+"preset": "Adult male"
+}
+},
+{
+"id": "designer-jacket",
+"name": "Designer Jacket",
+"family": "Design categories",
+"region": "Design",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 1.0,
+"ease": 14,
+"flare": 0,
+"type3d": "shirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "designer-suit",
+"name": "Designer Suit",
+"family": "Design categories",
+"region": "Design",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "designer-blazer",
+"name": "Designer Blazer",
+"family": "Design categories",
+"region": "Design",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.45,
+"sleeve": 1.0,
+"ease": 10,
+"flare": 0,
+"type3d": "shirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "streetwear",
+"name": "Streetwear",
+"family": "Design categories",
+"region": "Design",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "techwear",
+"name": "Techwear",
+"family": "Design categories",
+"region": "Design",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "luxury-wear",
+"name": "Luxury Wear",
+"family": "Design categories",
+"region": "Design",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "resort-wear",
+"name": "Resort Wear",
+"family": "Design categories",
+"region": "Design",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "cruise-wear",
+"name": "Cruise Wear",
+"family": "Design categories",
+"region": "Design",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "capsule-collection",
+"name": "Capsule Collection",
+"family": "Design categories",
+"region": "Design",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "haute-couture",
+"name": "Haute Couture",
+"family": "Design categories",
+"region": "Design",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult male"
+}
+},
+{
+"id": "avant-garde-fashion",
+"name": "Avant-Garde Fashion",
+"family": "Design categories",
+"region": "Design",
+"gender": "Unisex",
+"block": {
+"kind": "top",
+"len": 0.42,
+"sleeve": 0.35,
+"ease": 8,
+"flare": 0,
+"type3d": "tshirt",
+"preset": "Adult male"
+}
+}
+]
+}
